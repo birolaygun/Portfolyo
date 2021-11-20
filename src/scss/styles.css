@@ -48,7 +48,7 @@ body {
 .rightNav button {
   color: white;
   margin-top: 50px;
-  background-color: #b5179e;
+  background-color: #ca0360;
 }
 
 .rightNav button:hover {
@@ -81,7 +81,7 @@ body {
 
 .rightNav i:hover {
   cursor: pointer;
-  text-shadow: 1px 1px 20px #b5179e;
+  text-shadow: 1px 1px 20px #ca0360;
 }
 
 .main {
@@ -105,7 +105,7 @@ body {
 .welcome div p {
   font-weight: bold;
   color: #4cc9f0;
-  text-shadow: 1px 1px 4px #b5179e, -1px -1px 4px #b5179e, -1px 1px 4px #b5179e, 1px -1px 4px #b5179e;
+  text-shadow: 1px 1px 4px #ca0360, -1px -1px 4px #ca0360, -1px 1px 4px #ca0360, 1px -1px 4px #ca0360;
 }
 
 .welcome1 p {
@@ -532,8 +532,8 @@ body {
 }
 
 .headers > div > a:hover {
-  -webkit-box-shadow: 0px 0px 5px #b5179e;
-          box-shadow: 0px 0px 5px #b5179e;
+  -webkit-box-shadow: 0px 0px 5px #ca0360;
+          box-shadow: 0px 0px 5px #ca0360;
 }
 
 .svg {
@@ -598,7 +598,7 @@ body {
 .introduction h2 {
   margin: 20px;
   font-weight: bold;
-  color: #b5179e;
+  color: #ca0360;
 }
 
 .introduction p {
@@ -649,7 +649,7 @@ body {
 }
 
 .aboutMeCv hr {
-  color: #b5179e;
+  color: #ca0360;
   height: 2px;
   opacity: 1;
 }
@@ -752,7 +752,7 @@ input[type="range"]::-webkit-slider-thumb {
   width: 1em;
   height: 1em;
   margin: .2em 0;
-  background: #b5179e;
+  background: #ca0360;
   border-radius: 100%;
   -webkit-box-shadow: inset 0.8em 0.8em 5px -8px rgba(255, 255, 255, 0.192), inset -0.4em -0.4em 10px -3px rgba(0, 0, 0, 0.329), 0.7em 0.5em 7px -0.5em rgba(0, 0, 0, 0.842);
           box-shadow: inset 0.8em 0.8em 5px -8px rgba(255, 255, 255, 0.192), inset -0.4em -0.4em 10px -3px rgba(0, 0, 0, 0.329), 0.7em 0.5em 7px -0.5em rgba(0, 0, 0, 0.842);
@@ -872,8 +872,8 @@ input[type="range"]::before {
 }
 
 .allprojects > a:hover {
-  -webkit-box-shadow: 0px 0px 30px #b5179e;
-          box-shadow: 0px 0px 30px #b5179e;
+  -webkit-box-shadow: 0px 0px 30px #ca0360;
+          box-shadow: 0px 0px 30px #ca0360;
 }
 
 .myprojects p {
@@ -1027,7 +1027,7 @@ input[type="range"]::before {
   }
   .navMd {
     position: fixed;
-    background-color: #b5179e;
+    background-color: #ca0360;
     width: 100vw;
     padding: 0 10px;
     display: -webkit-box;
@@ -1052,7 +1052,7 @@ input[type="range"]::before {
     z-index: 20;
     position: fixed;
     width: 100vw;
-    background-color: #b5179e;
+    background-color: #ca0360;
     bottom: 0;
     display: -webkit-box;
     display: -ms-flexbox;
