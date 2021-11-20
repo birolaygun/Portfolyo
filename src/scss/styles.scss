@@ -1,0 +1,1005 @@
+$first: #f72585;
+$first: #b5179e;
+$third: #7209b7;
+$fourd: #560bad;
+$fifth: #480ca8;
+$sixth: #3a0ca3;
+$seventh: #3f37c9;
+$eighth: #4361ee;
+$nineth: #4895ef;
+$tenth: #4cc9f0;
+
+body {
+  background-color: $tenth;
+  font-family: "Roboto", sans-serif;
+}
+
+
+
+//NAV
+
+
+
+.socialMd,
+.navMd {
+  display: none;
+}
+.nav {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+  .leftNav {
+    position: relative;
+    width: 15%;
+    height: 100vh;
+    left: 0%;
+  
+    img {
+      width: 85px;
+      margin: 50px 0px 0px 20px;
+      cursor: pointer;
+    }
+  }
+
+  .rightNav {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+    height: 100vh;
+    left: 70%;
+
+    button {
+      color: white;
+      margin-top: 50px;
+            background-color: $first;
+
+    }
+    button:hover {
+      color: white;
+      background-color: $sixth;
+    }
+    .social {
+      display: flex;
+      flex-direction: column;
+      margin-top: 50px;
+    }
+    .social a{
+      margin: 10px !important;
+    }
+      a:hover {
+        cursor: auto;
+      }
+
+      i {
+        color: $sixth;
+      }
+
+      i:hover {
+        cursor: pointer;
+        text-shadow: 1px 1px 20px $first;
+      }
+    }
+  
+
+
+// Mains
+
+
+.main {
+  width: 70%;
+  margin-left: 15%;
+}
+.welcome {
+  position: relative;
+  height: 100vh;
+}
+.welcome div {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  visibility: hidden;
+}
+
+.welcome div p {
+  font-weight: bold;
+  color: $tenth;
+  text-shadow: 1px 1px 4px $first, -1px -1px 4px $first, -1px 1px 4px $first,
+    1px -1px 4px $first;
+}
+.welcome1 p {
+  padding-top: 30vh;
+  font-size: 8rem;
+  animation-name: welcome1;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+}
+
+.welcome2 p {
+  font-size: 4rem;
+  animation-name: welcome2;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+}
+.welcome3 p {
+  font-size: 3rem;
+  animation-name: welcome3;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+}
+.welcome4 p {
+  font-size: 3rem;
+  animation-name: welcome4;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+}
+.welcome5 p {
+  font-size: 5rem;
+  animation-name: welcome5;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+}
+.welcome6 p {
+  font-size: 4rem;
+  animation-name: welcome6;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes welcome1 {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+    padding-top: 0;
+  }
+  2% {
+    visibility: visible;
+    opacity: 0;
+    padding-top: 0;
+  }
+  4% {
+    padding-top: 30vh;
+    opacity: 1;
+  }
+  14% {
+    opacity: 1;
+    padding-top: 30vh;
+  }
+  16% {
+    visibility: visible;
+    opacity: 0;
+    padding-top: 0;
+  }
+  17% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+
+@keyframes welcome2 {
+  17% {
+    visibility: hidden;
+  }
+  19% {
+    visibility: visible;
+    opacity: 0;
+    padding-top: 0;
+  }
+  21% {
+    padding-top: 25vh;
+    opacity: 1;
+  }
+  31% {
+    opacity: 1;
+    padding-top: 25vh;
+  }
+  33% {
+    visibility: visible;
+    opacity: 0;
+    padding-top: 0;
+  }
+  34% {
+    visibility: hidden;
+  }
+}
+@keyframes welcome3 {
+  34% {
+    visibility: hidden;
+  }
+  36% {
+    visibility: visible;
+    opacity: 0;
+    padding-top: 0;
+  }
+  38% {
+    padding-top: 10vh;
+    opacity: 1;
+  }
+  48% {
+    opacity: 1;
+    padding-top: 10vh;
+  }
+  50% {
+    visibility: visible;
+    opacity: 0;
+    padding-top: 0;
+  }
+  51% {
+    visibility: hidden;
+  }
+}
+@keyframes welcome4 {
+  51% {
+    visibility: hidden;
+  }
+  53% {
+    visibility: visible;
+    opacity: 0;
+    padding-top: 0;
+  }
+  55% {
+    padding-top: 20vh;
+    opacity: 1;
+  }
+  65% {
+    opacity: 1;
+    padding-top: 20vh;
+  }
+  67% {
+    visibility: visible;
+    opacity: 0;
+    padding-top: 0;
+  }
+  68% {
+    visibility: hidden;
+  }
+}
+@keyframes welcome5 {
+  68% {
+    visibility: hidden;
+  }
+  70% {
+    visibility: visible;
+    opacity: 0;
+    padding-top: 0;
+  }
+  72% {
+    padding-top: 20vh;
+    opacity: 1;
+  }
+  82% {
+    opacity: 1;
+    padding-top: 20vh;
+  }
+  84% {
+    visibility: visible;
+    opacity: 0;
+    padding-top: 0;
+  }
+  85% {
+    visibility: hidden;
+  }
+}
+@keyframes welcome6 {
+  86% {
+    visibility: hidden;
+  }
+  88% {
+    visibility: visible;
+    opacity: 0;
+    padding-top: 0;
+  }
+  90% {
+    padding-top: 20vh;
+    opacity: 1;
+  }
+  98% {
+    opacity: 1;
+    padding-top: 20vh;
+  }
+  100% {
+    visibility: visible;
+    opacity: 0;
+    padding-top: 0;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+.main {
+  position: fixed;
+}
+
+
+
+
+// Headers
+
+
+
+.headers {
+  z-index: 11;
+  position: absolute;
+  width: 70vw;
+  margin-left: 15vw;
+  padding: 10px;
+  margin-top: 75vh;
+  padding-bottom: 100px;
+}
+.headers > div > a {
+  display: flex;
+  width: 40vw;
+  height: 150px;
+  max-width: 527px;
+  background: #4896efc7;
+  border-radius: 5px;
+  margin-bottom: 30vh;
+  text-decoration: none;
+  cursor: pointer;
+}
+.headers > div > a:hover {
+  box-shadow: 0px 0px 5px $first,
+}
+.svg {
+  margin: auto;
+}
+.svg svg {
+  width: 10vh;
+  color: $sixth;
+  margin: 10px;
+}
+.side {
+padding: 10px;
+margin: auto;
+  h1{
+    font-weight: bold;
+    color: $seventh;
+    font-size: 2rem;
+  }
+  p{
+    font-weight: bold;
+    color: $fourd;
+    font-size: 1rem;
+  }
+}
+
+.cvHd a, .galery a{
+  flex-direction: row-reverse;
+  margin-left: calc(30vw - 10px)  !important;
+}
+
+
+
+
+
+
+
+//About
+
+
+
+
+.aboutme img{
+  border-radius: 500px;
+  width: 50vw;
+  max-width: 400px;
+}
+.aboutme h1{
+margin: auto;
+padding: 10px;
+font-weight: bold;
+color: $sixth;
+width: min-content;
+font-size: 3rem;
+}
+.img{
+  margin: 0 auto;
+  width: min-content;
+}
+.introduction h2{
+  margin: 20px;
+  font-weight: bold;
+  color: $first;
+}
+.introduction p{
+  margin: 20px;
+  font-size: 1rem;
+  color: $sixth;
+  text-align: justify;
+}
+
+
+
+
+//cv
+
+
+
+
+.aboutMeCv > *{
+max-width: 100%;
+}
+.aboutMeCv {
+width: 100%;
+}
+.cv h1{
+margin: auto;
+padding: 10px;
+font-weight: bold;
+color: $sixth;
+width: min-content;
+font-size: 3rem;
+}
+.cv img{
+width: 60vw;
+max-width: 400px;
+
+}
+.head{
+  display: flex;
+  align-items: center;
+  margin: 15px auto;
+}
+.aboutMeCv svg{
+  width: 70px;
+  margin: 0 30px 5px 0;
+    color: $sixth;
+}
+.aboutMeCv hr{
+  color: $first;
+  height: 2px;
+  opacity: 1;
+}
+.aboutMeCv h2{
+  color: $sixth;
+  font-weight: bold;
+}
+.personel{
+  color: $fourd
+}
+.personel label{
+    font-weight: bold;
+    font-size: 1rem;
+    width: 140px;
+  }
+.personel p{
+    font-size: 1rem;
+  }
+  .personel > div > div{
+    display: flex;
+  }
+.educate {
+  color: $fourd;
+}
+.educate li{
+font-size: 1rem;
+font-weight: bold;
+}
+.educate p{
+font-size: 1rem;
+}
+.educate small{
+font-size: 0.7rem;
+}
+
+.job{
+  color: $fourd
+}
+.job h3{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 8px;
+}
+.job h3{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 8px;
+}
+.lisance{
+  color: $fourd
+}
+.lisance h3{
+    font-size: 1rem;
+    font-weight: bold;}
+.lisance h4{
+    font-size: 1rem;
+margin-bottom: 20px;}
+ .computer > div{
+     display: flex;
+     justify-content: space-between;
+     margin: 3px 0;
+ }
+ .computer > div > label{
+font-weight: bold;
+ }
+input[type="range"] {
+    -webkit-appearance: none; 
+    width: 12em;
+    background: transparent;
+    position: relative;
+}   
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 1em;
+    height: 1em;
+    margin: .2em 0;
+    background: $first;
+    border-radius: 100%;
+    box-shadow: 
+    inset .8em .8em 5px -8px rgba(255, 255, 255, 0.192),
+    inset -.4em -.4em 10px -3px rgba(0, 0, 0, 0.329),
+    0.7em 0.5em 7px -0.5em rgba(0, 0, 0, 0.842);;
+}
+input[type="range"]::-webkit-slider-runnable-track {
+    background: transparent;
+    width: 100%;
+    padding: 0 1em;
+    border-radius: 2em;
+    box-shadow: 
+    inset .6em 1em 10px rgba(0,0,0,.15),
+    inset -.6em -1em 10px rgba(255, 255, 255, 0.199);
+}
+input[type="range"]::before {
+    content: "0 1 2 3 4 5 6 7 8 9";
+    position: absolute;
+    text-align: center;
+    color: $sixth;
+    font-size: 0.8em;
+    letter-spacing: .16em;
+    top: -18px; 
+    left: 0; 
+    padding: 1.6em;
+    text-shadow: .5px .5px 0.9px rgba(0,0,0, .4);
+    z-index: -1;
+}
+.computer{
+  color: $fourd;
+}
+.computer > div{
+border-bottom: 1px solid $nineth;}
+.lang{
+    color: $fourd;
+}
+.lang h3{
+    font-weight: bold;
+}
+.lang p{
+font-size: 1rem;
+}
+.lang b{
+font-size: 1rem;
+}
+
+
+.paragraph p{
+    color: $fourd;
+font-size: 1rem;
+}
+.paragraph {
+margin-bottom: 100px;
+}
+
+
+
+
+//projects
+
+
+
+
+.myprojects > *{
+max-width: 100%;
+}
+.myprojects h1{
+margin: auto;
+padding: 10px;
+font-weight: bold;
+color: $sixth;
+width: min-content;
+font-size: 3rem;
+}
+.allprojects{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: stretch;
+}
+.allprojects img{
+  width: 20vw;
+  min-width: 250px
+}
+.allprojects h2{
+    color: $fourd;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.allprojects > a {
+    margin: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(47, 47, 121, 0.11);
+    z-index: 11;
+    cursor: pointer;
+}
+.allprojects > a:hover{
+    box-shadow: 0px 0px 30px $first,
+}
+.myprojects p{
+font-size: 1.2rem;
+color: $sixth;}
+.myprojects b{
+font-size: 1.2rem;
+}
+
+
+
+
+//ortak
+
+
+
+.aboutme, .cv, .myprojects, .prproject{
+
+  position: absolute;
+  width: 70vw;
+  margin-left: 15vw;
+  padding: 10px;
+  margin-top: 5px;
+  padding-bottom: 100px;
+}
+.prproject{
+  z-index: 12;
+a{
+    font-size: 1rem;
+  color: $fourd;
+}
+img{
+  width: 100%;
+  margin:10px 0 ;
+}
+ul{
+    color: $fourd;
+    list-style: decimal;
+li{
+
+}
+}
+iframe{
+  width: 50vw;
+  height: 28vw;
+  position: relative;
+  left: calc(10vw - 20px ) ;
+  margin: 10px;
+}
+}
+
+.prproject h1{
+  width: fit-content;
+  margin: auto;
+  font-size: 3rem;
+  font-weight: bold;
+  color: $sixth;
+}
+.prproject h2{
+  width: min-content;
+  margin: 10px auto;
+  font-size: 2rem;
+  font-weight: bold;
+  color: $sixth;
+}
+.prproject h3{
+  font-size: 1rem;
+  font-weight: bold;
+  color: $sixth;
+}
+.links{
+ margin: 15px 0;
+}
+.prproject p{
+  font-size: 1.2rem;
+  color: $fourd;
+  text-align: justify;
+  b{
+      font-size: 1.2rem;
+  }
+}
+.imgPr img{
+  width: 60vw;
+  max-width: 500px;
+  margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 450px) and (max-width: 800px) {
+  * {
+    font-size: 0.8rem;
+  }
+
+
+  //nav
+
+
+
+  .nav {
+    .leftNav {
+      img {
+  width: 65px;
+        margin: 20px 0px 0px 5px;
+      }
+    }
+    .rightNav {
+      button {
+        margin-top: 20px;
+      }
+      .social {
+        margin-top: 30px;
+      }
+    }
+  }
+
+
+  //mains
+
+
+
+  .welcome1 p {
+    font-size: 5rem;
+  }
+  
+  .headers > div {
+    max-width: 70vw;
+    min-width: 290px;
+  }
+  .svg svg {
+    width: 100px;
+  }
+
+
+
+  //cv
+
+
+input[type="range"]::before {
+    top: -12px; 
+  }
+
+
+
+//Headers
+
+
+
+.headers > div > a {
+  width: 50vw;
+  height: 120px;
+}
+.svg svg {
+  width: 10vh;
+  margin: 10px;
+}
+.side {
+  h1{
+    font-size: 1.5rem;
+  }
+}
+.cvHd a, .galery a{
+  flex-direction: row-reverse;
+  margin-left: calc(20vw - 10px)  !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1px) and (max-width: 449px) {
+  * {
+    font-size: 0.8rem;
+  }
+
+
+
+  //nav
+
+
+  .socialMd,
+  .navMd {
+    display: inline-block;
+  }
+  .nav {
+    display: none;
+  }
+  .navMd {
+    position: fixed;
+    background-color: $first;
+    width: 100vw;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 20;
+    height: 50px;
+    margin: auto;
+  }
+.navMd img{
+  width: 75px;
+  cursor: pointer;
+}
+  .socialMd {
+    height: 40px;
+    z-index: 20;
+    position: fixed;
+    width: 100vw;
+    background-color: $first;
+    bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .socialMd > a {
+    margin: auto;
+  }
+  .socialMd > a > i{
+    color: $sixth;
+  }
+  .navMd > button {
+    background-color: $sixth;
+    color: white;
+    margin-right: 10px;
+  }
+  .navMd button:hover {
+    color: white;
+    background-color: $tenth;
+  }
+
+
+
+  //main
+
+
+
+  .welcome div p {
+    font-size: 2rem;
+  }
+  .welcome1 p {
+    font-size: 10rem;
+  }
+
+
+@keyframes welcome3 {
+  34% {
+    visibility: hidden;
+  }
+  36% {
+    visibility: visible;
+    opacity: 0;
+    padding-top: 0;
+  }
+  38% {
+    padding-top: 25vh;
+    opacity: 1;
+  }
+  48% {
+    opacity: 1;
+    padding-top: 25vh;
+  }
+  50% {
+    visibility: visible;
+    opacity: 0;
+    padding-top: 0;
+  }
+  51% {
+    visibility: hidden;
+  }
+}
+
+
+
+
+
+  //headers
+
+
+
+
+
+.headers {
+  position: absolute;
+  width: 100vw;
+  margin-left: 0vw;
+  padding: 10px;
+  margin-top: 75vh;
+  padding-bottom: 100px;
+}
+.headers > div > a {
+  display: flex;
+  width: 100%;
+  height: 120px;
+  margin-bottom: 20vh;
+}
+
+.cvHd a, .galery a{
+  flex-direction: row;
+  margin-left: 0  !important;
+}
+
+
+
+
+
+
+
+
+
+  //cv
+
+
+
+input[type="range"]::before {
+    top: -12px; 
+  }
+
+
+
+
+.aboutme, .cv, .myprojects, .prproject{
+width: 100%;
+margin-left: 0;
+margin-top: 50px
+}
+
+ .prproject iframe{
+  width: 87vw;
+  height: 50vw;
+  position: static;
+}
+
+}
+

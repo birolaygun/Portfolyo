@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Nav from "./components/Nav"
+import Mains from "./components/Mains"
+import About from "./components/About";
+import Cv from "./components/Cv";
+import Projects from "./components/Projects";
+import PrPortfolyo from "./components/PrPortfolyo";
+import PrTanitim from "./components/PrTanitim";
+import PrStok from "./components/PrStok";
+import PrOtoban from "./components/PrOtoban";
+import PrCountdown from "./components/PrCountdown";
+import PrShopping from "./components/PrShopping";
+import PrDoviz from "./components/PrDoviz";
+import Prilk from "./components/Prilk";
+import "./scss/styles.css";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <Nav />
+
+        <Route path="/" exact component={Mains} />
+        <Route path="/ilk_web_sitem" exact component={Prilk} />
+        <Route path="/doviz_hesaplama" exact component={PrDoviz} />
+        <Route path="/shopping" exact component={PrShopping} />
+        <Route path="/countdown_to_do" exact component={PrCountdown} />
+        <Route path="/otoban_oto" exact component={PrOtoban} />
+        <Route path="/stok_takip" exact component={PrStok} />
+        <Route path="/tanitim" exact component={PrTanitim} />
+        <Route path="/projelerim" exact component={Projects} />
+        <Route path="/portfolyo" exact component={PrPortfolyo} />
+        <Route path="/cv" exact component={Cv} />
+        <Route path="/hakkimda" exact component={About} />
+      </div>
+    </Router>
   );
 }
 
-export default App;
