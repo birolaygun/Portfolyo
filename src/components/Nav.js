@@ -8,52 +8,50 @@ const Nav = () => {
     <div>
       <div className="nav">
         <div className="leftNav">
-          <Link to="/"><img src={Logo} alt="" />
-          </Link> 
+          <Link to="/">
+            <img src={Logo} alt="" />
+          </Link>
         </div>
 
         <div className="rightNav">
           <button className="btn ">EN</button>
           <div className="social">
-            <Link to="">
+            <a href="https://twitter.com/BirolAygun2?t=gTKDKjr6X27lBL-L9pWHKA&s=09">
               <i class="fab fa-2x fa-twitter"></i>
-            </Link>
-            <Link to="">
+            </a>
+            <a href="https://instagram.com/birolaygun2?utm_medium=copy_link">
               <i class="fab fa-2x fa-instagram"></i>
-            </Link>
-            <Link to="">
+            </a>
+            <a href="https://www.linkedin.com/in/birol-ayg%C3%BCn-89a346222">
               <i class="fab fa-2x fa-linkedin-in"></i>
-            </Link>
-            <Link to="">
+            </a>
+            <a href="https://github.com/birolaygun">
               <i class="fab fa-2x fa-github"></i>{" "}
-            </Link>
+            </a>
           </div>
         </div>
       </div>
 
       <div className="navMd">
-        
-                           <Link to="/">
- <img src={Logo} alt="" /> </Link>
-                  <button className="btn ">EN</button>
-        
-</div>
-        <div className="socialMd">
-          <Link to="">
-            <i class="fab fa-2x fa-twitter"></i>
-          </Link>
-          <Link to="">
-            <i class="fab fa-2x fa-instagram"></i>
-          </Link>
-          <Link to="">
-            <i class="fab fa-2x fa-linkedin-in"></i>
-          </Link>
-          <Link to="">
-            <i class="fab fa-2x fa-github"></i>{" "}
-          </Link>
-        </div>
-
-      
+        <Link to="/">
+          <img src={Logo} alt="" />{" "}
+        </Link>
+        <button className="btn ">EN</button>
+      </div>
+      <div className="socialMd">
+        <a href="https://twitter.com/BirolAygun2?t=gTKDKjr6X27lBL-L9pWHKA&s=09">
+          <i class="fab fa-2x fa-twitter"></i>
+        </a>
+        <a href="https://instagram.com/birolaygun2?utm_medium=copy_link">
+          <i class="fab fa-2x fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/birol-ayg%C3%BCn-89a346222">
+          <i class="fab fa-2x fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/birolaygun">
+          <i class="fab fa-2x fa-github"></i>{" "}
+        </a>
+      </div>
     </div>
   );
 };
