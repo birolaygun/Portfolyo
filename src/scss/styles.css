@@ -1,6 +1,7 @@
 body {
   background-color: #4cc9f0;
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 
 .socialMd,
@@ -1165,7 +1166,7 @@ input[type="range"]::before {
     margin-top: 50px;
   }
   .prproject iframe {
-    width: 87vw;
+    width: 90vw;
     height: 50vw;
     position: static;
   }
