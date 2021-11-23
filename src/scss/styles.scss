@@ -1,3 +1,4 @@
+
 $first: #ca0360;
 $second: #b5179e;
 $third: #7209b7;
@@ -18,6 +19,7 @@ body {
 
 
 //NAV
+
 
 
 
@@ -55,7 +57,7 @@ body {
     button {
       color: white;
       margin-top: 50px;
-            background-color: $first;
+      background-color: $first;
 
     }
     button:hover {
@@ -83,8 +85,9 @@ body {
         text-shadow: 1px 1px 20px $first;
       }
     }
-  
 
+
+    
 
 // Mains
 
@@ -412,6 +415,10 @@ font-size: 3rem;
   font-size: 1rem;
   color: $sixth;
   text-align: justify;
+  b{
+      font-size: 1rem;
+
+  }
 }
 
 
@@ -421,7 +428,20 @@ font-size: 3rem;
 
 
 
+.cv{
+  z-index: 11;
+}
+    .cvdwn {
+      color: white;
+      margin: 10px 0;
+      background-color: $first;
 
+    }
+    .cvdwn:hover {
+      color: white;
+      background-color: $sixth;
+    }
+    
 .aboutMeCv > *{
 max-width: 100%;
 }
@@ -486,6 +506,7 @@ font-size: 1rem;
 }
 .educate small{
 font-size: 0.7rem;
+font-weight: bold;
 }
 
 .job{
@@ -675,13 +696,7 @@ li{
 
 }
 }
-iframe{
-  width: 50vw;
-  height: 28vw;
-  position: relative;
-  left: calc(10vw - 20px ) ;
-  margin: 10px;
-}
+
 }
 
 .prproject h1{
@@ -720,6 +735,98 @@ iframe{
   margin: 20px;
 }
 
+
+// Contact
+
+
+.prproject{ 
+  h2{
+  width: fit-content;
+  margin:20px 0%;
+}
+hr{opacity: 1;
+color: $first;
+height: 3px;
+}
+}
+
+
+//contact
+
+
+
+iframe{
+  width: calc(70vw - 20px);
+  max-width: 650px;
+  max-height: 322px;
+  height: 33vw;
+  position: static;
+  left: 0 ;
+  margin: 0px;
+}
+.ifra{
+  margin: auto;
+  width: fit-content;
+  padding: auto;
+  background-color: #fff;
+}
+.tel * {
+  color: $sixth;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px 0;
+}
+.tel *:hover {
+        text-shadow: 1px 1px 10px $first;
+}
+.tel svg {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+.grid-wrap ul{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  grid-auto-rows: 120px;
+  grid-auto-flow: dense;
+  li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+
+   img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 0 2px 16px var(--shadow);
+  transition: 0.2s;
+}
+
+img:hover{
+ transform: scale(1.5);
+}
+}}
+
+.horizontal {
+  grid-column: span 2;
+}
+
+.vertical {
+  grid-row: span 2;
+}
+
+.big {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.small {
+  grid-column: span 1;
+  grid-row: span 1;
+}
 
 
 
@@ -972,10 +1079,10 @@ input[type="range"]::before {
 }
 
 
-
-
-
-
+iframe{
+  width: calc(100vw - 20px);
+  height: 45vw;
+}
 
 
 
@@ -987,20 +1094,20 @@ input[type="range"]::before {
     top: -12px; 
   }
 
-
-
-
+  
 .aboutme, .cv, .myprojects, .prproject{
 width: 100%;
 margin-left: 0;
 margin-top: 50px
 }
 
- .prproject iframe{
-  width: 90vw;
-  height: 50vw;
-  position: static;
-}
 
 }
+
+
+
+
+
+
+
 

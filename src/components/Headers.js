@@ -67,7 +67,7 @@ const Headers = () => {
       </div>
 
       <div className="galery">
-        <Link to="/hakkimda">
+        <Link to="/galeri">
           <div className="svg">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -87,7 +87,7 @@ const Headers = () => {
       </div>
 
       <div className="contact">
-        <Link to="/hakkimda">
+        <Link to="/iletişim">
           <div className="svg">
             <svg
               xmlns="http://www.w3.org/2000/svg"

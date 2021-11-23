@@ -21,13 +21,16 @@ const Prilk = () => {
           tasarlamıştım. Malesef o günlerde git - github nedir bilmediğim için
           yazdığım kodları kaydedemedim ve kayboldu gitti. Geriye sadece bu
           video kaldı.
-        </p>      <iframe
+        </p>    
+        <div className="ifra">
+            <iframe
             src="https://www.youtube.com/embed/fYdxx9rzKF4"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
-          ></iframe>
+          ></iframe>          </div>
+
       </div>
 
     </div>

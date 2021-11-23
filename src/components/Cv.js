@@ -9,11 +9,11 @@ const Cv = () => {
         {" "}
         <h1>CV</h1>{" "}
       </header>
-    
-        <a href={cv} download="newfilename">
-           <button> Cv'yi İndir
-       </button> </a>
-     
+
+      <a href={cv} download>
+        <button className="cvdwn btn"> CV'yi İndir</button>
+      </a>
+
       <div className="img">
         <img src={brl} alt="photo1" />
       </div>

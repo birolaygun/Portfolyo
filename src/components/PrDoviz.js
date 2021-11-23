@@ -41,13 +41,16 @@ const PrDoviz = () => {
           Youtube videosunu izlerseniz Local Host'da nasıl çalıştığını
           görebilirsiniz.
         </p>
+        <div className="ifra">
+
         <iframe
           src="https://www.youtube.com/embed/bW9eQJyI_8s"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
-        ></iframe>
+        ></iframe>        </div>
+
       </div>
     </div>
   );

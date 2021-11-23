@@ -13,6 +13,8 @@ import PrCountdown from "./components/PrCountdown";
 import PrShopping from "./components/PrShopping";
 import PrDoviz from "./components/PrDoviz";
 import Prilk from "./components/Prilk";
+import Galery from "./components/Galery";
+import İletişim from "./components/İletişim";
 import "./scss/styles.css";
 
 export default function App() {
@@ -23,6 +25,8 @@ export default function App() {
 
         <Route path="/" exact component={Mains} />
         <Route path="/ilk_web_sitem" exact component={Prilk} />
+        <Route path="/iletişim" exact component={İletişim} />
+        <Route path="/galeri" exact component={Galery} />
         <Route path="/doviz_hesaplama" exact component={PrDoviz} />
         <Route path="/shopping" exact component={PrShopping} />
         <Route path="/countdown_to_do" exact component={PrCountdown} />

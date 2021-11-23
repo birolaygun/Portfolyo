@@ -25,6 +25,9 @@ const Nav = () => {
             <a href="https://www.linkedin.com/in/birol-ayg%C3%BCn-89a346222">
               <i class="fab fa-2x fa-linkedin-in"></i>
             </a>
+            <a href="https://www.youtube.com/channel/UCRnkf1wfBNBPRm7NoSf4PoA">
+              <i className="fab fa-youtube fa-2x"></i>{" "}
+            </a>
             <a href="https://github.com/birolaygun">
               <i class="fab fa-2x fa-github"></i>{" "}
             </a>
@@ -47,6 +50,9 @@ const Nav = () => {
         </a>
         <a href="https://www.linkedin.com/in/birol-ayg%C3%BCn-89a346222">
           <i class="fab fa-2x fa-linkedin-in"></i>
+        </a>
+        <a href="https://www.youtube.com/channel/UCRnkf1wfBNBPRm7NoSf4PoA">
+          <i className="fab fa-youtube fa-2x"></i>{" "}
         </a>
         <a href="https://github.com/birolaygun">
           <i class="fab fa-2x fa-github"></i>{" "}

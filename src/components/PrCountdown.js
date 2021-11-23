@@ -40,6 +40,8 @@ const PrCountdown = () => {
           menüleri gezerek yaptığınız, kaçırdığınız ve iptal ettiğiniz görevleri
           görebiliyorsuunuz.
         </p>
+        <div className="ifra">
+
         <iframe
 
           src="https://www.youtube.com/embed/9bzpiLqYDaM"
@@ -47,7 +49,8 @@ const PrCountdown = () => {
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
-        ></iframe>
+        ></iframe>        </div>
+
       </div>
     </div>
   );

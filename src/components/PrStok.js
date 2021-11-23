@@ -68,6 +68,8 @@ const PrStok = () => {
             yapabilmektedir.
           </li>
         </ul>
+        <div className="ifra">
+
         <iframe
 
           src="https://www.youtube.com/embed/NHQqDsnW-hg"
@@ -75,7 +77,8 @@ const PrStok = () => {
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
-        ></iframe>
+        ></iframe>        </div>
+
       </div>
     </div>
   );
