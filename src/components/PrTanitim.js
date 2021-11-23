@@ -7,6 +7,7 @@ import ahrefs2 from "../galery/ahrefs2.PNG";
 import ahrefs3 from "../galery/ahrefs3.PNG";
 
 const PrTanitim = () => {
+  
   return (
     <div>
       <div className="prproject">

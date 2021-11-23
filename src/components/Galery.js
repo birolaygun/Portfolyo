@@ -21,6 +21,7 @@ import t from "../galery/t.jpeg";
 
 
 const Galery = () => {
+  
   return (
     <div className="prproject">
       <h1>Galeri</h1>

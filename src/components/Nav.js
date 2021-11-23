@@ -1,9 +1,17 @@
-import React from "react";
 import Logo from "../LOGO.gif";
 import { Link } from "react-router-dom";
 
 
-const Nav = () => {
+const Nav = (props) => {
+
+  // const [url, setUrl] = useState("");
+
+  // useEffect(() => {
+  //   window.location.href.indexOf("/en") > -1
+  //     ? setUrl(window.location.href.slice(0, -3))
+  //     : setUrl(window.location.href + "/en");
+  // }, [url]);
+
   return (
     <div>
       <div className="nav">
@@ -14,7 +22,25 @@ const Nav = () => {
         </div>
 
         <div className="rightNav">
-          <button className="btn ">EN</button>
+          {/* {window.location.href.indexOf("en/") > -1 ? (
+            <a href={url}>
+              <button className="btn">TR</button>
+            </a>
+          ) : (
+            <a href={url}>
+              <button className="btn">EN</button>
+            </a>
+          )} */}
+
+          <a>
+            <button
+              onClick={() => alert("henüz yapım aşamasında")}
+              className="btn"
+            >
+              EN
+            </button>
+          </a>
+
           <div className="social">
             <a href="https://twitter.com/BirolAygun2?t=gTKDKjr6X27lBL-L9pWHKA&s=09">
               <i class="fab fa-2x fa-twitter"></i>
@@ -39,7 +65,15 @@ const Nav = () => {
         <Link to="/">
           <img src={Logo} alt="" />{" "}
         </Link>
-        <button className="btn ">EN</button>
+
+        <Link>
+          <button
+            onClick={() => alert("henüz yapım aşamasında")}
+            className="btn"
+          >
+            EN
+          </button>
+        </Link>
       </div>
       <div className="socialMd">
         <a href="https://twitter.com/BirolAygun2?t=gTKDKjr6X27lBL-L9pWHKA&s=09">

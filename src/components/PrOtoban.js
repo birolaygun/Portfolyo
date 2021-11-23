@@ -2,6 +2,7 @@ import React from "react";
 import otoban from "../galery/otoban.gif";
 
 const PrOtoban = () => {
+  
   return (
     <div>
       <div className="prproject">

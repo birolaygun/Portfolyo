@@ -3,6 +3,7 @@ import brl from "../Brl.jpg";
 import cv from "../CV.pdf";
 
 const Cv = () => {
+  
   return (
     <section className="cv">
       <header>

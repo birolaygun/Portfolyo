@@ -2,6 +2,7 @@ import React from 'react'
 import Headers from './Headers';
 
 const Mains = () => {
+  
     return (
       <div className="mains">
         <div className="main">

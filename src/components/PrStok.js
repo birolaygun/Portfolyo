@@ -2,6 +2,7 @@ import React from "react";
 import stok from "../galery/stok.gif";
 
 const PrStok = () => {
+  
   return (
     <div>
       <div className="prproject">

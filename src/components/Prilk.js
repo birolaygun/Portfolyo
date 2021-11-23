@@ -2,6 +2,7 @@ import React from "react";
 import ilk from "../galery/ilk.gif";
 
 const Prilk = () => {
+  
   return (
     <div>
       <div className="prproject">

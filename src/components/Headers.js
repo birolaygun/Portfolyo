@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 const Headers = () => {
+  
   return (
     <div className="headers">
       <div className="about">
@@ -48,7 +49,7 @@ const Headers = () => {
       </div>
 
       <div className="projects">
-        <Link to="/projelerim">
+        <Link to="/projeler">
           <div className="svg">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -87,7 +88,7 @@ const Headers = () => {
       </div>
 
       <div className="contact">
-        <Link to="/iletişim">
+        <Link to="/iletisim">
           <div className="svg">
             <svg
               xmlns="http://www.w3.org/2000/svg"

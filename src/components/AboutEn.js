@@ -1,16 +1,16 @@
 import React from "react";
 import brl from "../Brl.jpg";
 
-const About = () => {
+const AboutEn = () => {
   
   return (
     <div className="aboutme">
-      <h1>HAKKIMDA</h1>
+      <h1>About Me</h1>
       <div className="img">
         <img src={brl} alt="" />
       </div>
       <div className="introduction">
-        <h2>Birol AYGÜN Kimdir ?</h2>
+        <h2>Who Is Birol AYGÜN ?</h2>
         <p>
           22/111987 tarihinde Ankara'da doğdum. Babam işçi annem ise ev
           hanımıydı. Çocoklugum Kazan ilçesinde geçti ve İlköğretim Eğitimimi{" "}
@@ -58,4 +58,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutEn;

@@ -10,6 +10,7 @@ import todo from "../galery/todo.gif";
 import { Link } from "react-router-dom";
 
 const Projects = () => {
+  
   return (
     <div className="myprojects">
       <h1>PROJELER</h1>
@@ -19,7 +20,7 @@ const Projects = () => {
         <b>Tanıtım</b> projelerimi incelemenizi öneririm.
       </p>
       <div className="allprojects">
-        <Link to="/portfolyo">
+        <Link to="/projeler/portfolyo">
           {" "}
           <div className="portfolyo">
             <div className="img">
@@ -29,7 +30,7 @@ const Projects = () => {
           </div>
         </Link>
 
-        <Link to="/tanitim">
+        <Link to="/projeler/tanitim">
           {" "}
           <div className="portfolyo">
             <div className="img">
@@ -38,7 +39,7 @@ const Projects = () => {
             <h2>Tanıtım</h2>{" "}
           </div>
         </Link>
-        <Link to="/stok_takip">
+        <Link to="/projeler/stok_takip">
           {" "}
           <div className="portfolyo">
             {" "}
@@ -48,7 +49,7 @@ const Projects = () => {
             <h2>Stok-Takip</h2>{" "}
           </div>{" "}
         </Link>
-        <Link to="/otoban_oto">
+        <Link to="/projeler/otoban_oto">
           <div className="portfolyo">
             {" "}
             <div className="img">
@@ -57,7 +58,7 @@ const Projects = () => {
             <h2>Otoban Oto</h2>{" "}
           </div>{" "}
         </Link>
-        <Link to="/countdown_to_do">
+        <Link to="/projeler/countdown_to_do">
           {" "}
           <div className="portfolyo">
             {" "}
@@ -67,7 +68,7 @@ const Projects = () => {
             <h2>Countdow To Do</h2>{" "}
           </div>{" "}
         </Link>
-        <Link to="/shopping">
+        <Link to="/projeler/shopping">
           {" "}
           <div className="portfolyo">
             {" "}
@@ -77,7 +78,7 @@ const Projects = () => {
             <h2>Shopping</h2>{" "}
           </div>{" "}
         </Link>
-        <Link to="/doviz_hesaplama">
+        <Link to="/projeler/doviz_hesaplama">
           {" "}
           <div className="portfolyo">
             {" "}
@@ -87,7 +88,7 @@ const Projects = () => {
             <h2>Döviz Hesapla</h2>{" "}
           </div>{" "}
         </Link>
-        <Link to="/ilk_web_sitem">
+        <Link to="/projeler/ilk_web_sitem">
           {" "}
           <div className="portfolyo">
             {" "}

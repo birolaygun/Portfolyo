@@ -2,6 +2,7 @@ import React from 'react'
 import portfolyo from "../galery/portfolyo.gif";
 
 const PrPortfolyo = () => {
+  
     return (
       <div className="prproject">
         <h1>Portfolyo</h1>

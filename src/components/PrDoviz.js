@@ -2,6 +2,7 @@ import React from "react";
 import döviz from "../galery/döviz.gif";
 
 const PrDoviz = () => {
+  
   return (
     <div>
       <div className="prproject">
