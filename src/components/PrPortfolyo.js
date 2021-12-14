@@ -10,8 +10,7 @@ const PrPortfolyo = () => {
     <img src={portfolyo} alt="" />
 </div>
         <p>
-          Şu anda incelediğiniz bu site benim tarafımdan hazırlanmış bir
-          projedir.
+          This site you are viewing right now was prepared by me.
         </p>
         <p>
           Bu projeyi <b>React</b> {""} kullanarak hazırladım. Ayrıca ilk {" "}

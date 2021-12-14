@@ -21,7 +21,7 @@ const HeadersEn = () => {
           </div>
           <div className="side">
             <h1>About Me</h1>
-            <p>Do You Want To learn About Me More</p>
+            <p>Do you want to learn about me more</p>
           </div>
         </Link>
       </div>
@@ -42,7 +42,7 @@ const HeadersEn = () => {
 
           <div className="side">
             <h1>CV</h1>
-            <p>CV'mi okumak veya indirmek için tıklayın</p>
+            <p>Click to read or download my CV</p>
           </div>
         </Link>
       </div>
@@ -60,8 +60,8 @@ const HeadersEn = () => {
             </svg>
           </div>
           <div className="side">
-            <h1>Projelerim</h1>
-            <p>Yapmış olduğum tüm siteleri ve projeleri görmek için tıklayın</p>
+            <h1>My Projects</h1>
+            <p>Click to see all the sites and projects I have done</p>
           </div>
         </Link>
       </div>
@@ -80,8 +80,8 @@ const HeadersEn = () => {
             </svg>
           </div>
           <div className="side">
-            <h1>Galeri</h1>
-            <p>Özel hayatıma dair bazı fotoğraflarıma bakmak için tıklayınız</p>
+            <h1>Gallery</h1>
+            <p>Click to see some of my private life photos</p>
           </div>
         </Link>
       </div>
@@ -103,8 +103,8 @@ const HeadersEn = () => {
             </svg>
           </div>
           <div className="side">
-            <h1>İletişim</h1>
-            <p>İletişim bilgilerime ulaşmak için tıklayın</p>
+            <h1 id="comm">Communication</h1>
+            <p>Click to reach my contact information</p>
           </div>
         </Link>
       </div>

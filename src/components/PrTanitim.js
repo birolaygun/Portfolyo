@@ -41,7 +41,7 @@ const PrTanitim = () => {
         </p>
         <h2>SEO</h2>
         <p>
-          Sitem önde gelen Seo sitelerinden birisi onların{" "}
+          Sitem önde gelen Seo sitelerinden birisi olan{" "}
           <a href="https://ahrefs.com/tr">ahrefs.com</a> 'den{" "}
           <b>90%</b> puan aldı. 10% puanı da 2 tane hata için kırdı. Bu
           hataların nedeni ise "Bağlantınız Gizli Değil" uyarısı nedeniyle

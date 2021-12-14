@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import brl from "../Brl.jpg";
-import cv from "../Birol_Aygün_CV.pdf";
+import cv from "../Birol_Aygun_CV.pdf";
 import { saveAs } from "file-saver";
 
 const CvEn = () => {
@@ -18,7 +18,7 @@ const CvEn = () => {
 
       <a
         onClick={() => {
-          if (window.confirm("Press a button!")) {
+          if (window.confirm("CV's language is Turkish. Do you want to download it ?")) {
             saveAs(
               "https://birolaygun.netlify.app/static/media/Birol_Aygün_CV.89549446.pdf"
             );

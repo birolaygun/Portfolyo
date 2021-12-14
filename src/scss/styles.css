@@ -573,6 +573,10 @@ body {
   margin-left: calc(30vw - 10px) !important;
 }
 
+#comm {
+  font-size: 1.8rem;
+}
+
 .aboutme img {
   border-radius: 500px;
   width: 50vw;
@@ -1044,6 +1048,10 @@ iframe {
   margin-bottom: 10px;
 }
 
+.commHr {
+  background-color: #29293c;
+}
+
 .grid-wrap ul {
   display: -ms-grid;
   display: grid;
@@ -1128,12 +1136,16 @@ iframe {
   input[type="range"]::before {
     top: -12px;
   }
+  #comm {
+    font-size: 1.5rem;
+  }
   .headers > div > a {
     width: 50vw;
     height: 120px;
   }
   .svg svg {
     width: 10vh;
+    max-width: 55px;
     margin: 10px;
   }
   .side h1 {

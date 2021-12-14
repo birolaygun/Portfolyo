@@ -1,6 +1,6 @@
 import React from "react";
 import brl from "../Brl.jpg";
-import cv from "../Birol_Aygün_CV.pdf";
+import cv from "../Birol_Aygun_CV.pdf";
 
 const Cv = () => {
   

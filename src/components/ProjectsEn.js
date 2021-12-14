@@ -9,47 +9,46 @@ import stok from "../galery/stok.gif";
 import todo from "../galery/todo.gif";
 import { Link } from "react-router-dom";
 
-const Projects = () => {
-  
+const ProjectsEn = () => {
   return (
     <div className="myprojects">
-      <h1>PROJELER</h1>
+      <h1>PROJECTS</h1>
       <p>
-        Burada projelerimden bağzılarını sizlere tanıtacağım. Lütfen incelemek
-        istediğiniz projemin üzerine tıklayınız. Özellikle <b>Stok-Takip</b> ve{" "}
-        <b>Tanıtım</b> projelerimi incelemenizi öneririm.
+        Here I will introduce some of my projects to you. Please click on the
+        project you want to review. I especially recommend you to review my{" "}
+        <b>Stock-Tracking</b> and <b>Promotion</b> projects.
       </p>
       <div className="allprojects">
-        <Link to="/projeler/portfolyo/">
+        <Link to="/projeler/portfolyo/en/">
           {" "}
           <div className="portfolyo">
             <div className="img">
               <img src={portfolyo} alt="" />
             </div>{" "}
-            <h2>Portfolyo</h2>{" "}
+            <h2>Portfolio</h2>{" "}
           </div>
         </Link>
 
-        <Link to="/projeler/tanitim/">
+        <Link to="/projeler/tanitim/en/">
           {" "}
           <div className="portfolyo">
             <div className="img">
               <img src={birol} alt="" />
             </div>{" "}
-            <h2>Tanıtım</h2>{" "}
+            <h2>Promotion</h2>{" "}
           </div>
         </Link>
-        <Link to="/projeler/stok_takip/">
+        <Link to="/projeler/stok_takip/en/">
           {" "}
           <div className="portfolyo">
             {" "}
             <div className="img">
               <img src={stok} alt="" />
             </div>{" "}
-            <h2>Stok-Takip</h2>{" "}
+            <h2>Stock-Tracking</h2>{" "}
           </div>{" "}
         </Link>
-        <Link to="/projeler/otoban_oto/">
+        <Link to="/projeler/otoban_oto/en/">
           <div className="portfolyo">
             {" "}
             <div className="img">
@@ -58,7 +57,7 @@ const Projects = () => {
             <h2>Otoban Oto</h2>{" "}
           </div>{" "}
         </Link>
-        <Link to="/projeler/countdown_to_do/">
+        <Link to="/projeler/countdown_to_do/en/">
           {" "}
           <div className="portfolyo">
             {" "}
@@ -68,7 +67,7 @@ const Projects = () => {
             <h2>Countdow To Do</h2>{" "}
           </div>{" "}
         </Link>
-        <Link to="/projeler/shopping/">
+        <Link to="/projeler/shopping/en/">
           {" "}
           <div className="portfolyo">
             {" "}
@@ -78,24 +77,24 @@ const Projects = () => {
             <h2>Shopping</h2>{" "}
           </div>{" "}
         </Link>
-        <Link to="/projeler/doviz_hesaplama/">
+        <Link to="/projeler/doviz_hesaplama/en/">
           {" "}
           <div className="portfolyo">
             {" "}
             <div className="img">
               <img src={döviz} alt="" />
             </div>{" "}
-            <h2>Döviz Hesapla</h2>{" "}
+            <h2>Calculate Currency</h2>{" "}
           </div>{" "}
         </Link>
-        <Link to="/projeler/ilk_web_sitem/">
+        <Link to="/projeler/ilk_web_sitem/en/">
           {" "}
           <div className="portfolyo">
             {" "}
             <div className="img">
               <img src={ilk} alt="" />
             </div>{" "}
-            <h2>İlk Web Sitem</h2>{" "}
+            <h2>My First Website</h2>{" "}
           </div>{" "}
         </Link>
       </div>
@@ -103,4 +102,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default ProjectsEn;

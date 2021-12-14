@@ -9,16 +9,26 @@ import AboutEn from "./components/AboutEn";
 import Cv from "./components/Cv";
 import CvEn from "./components/CvEn";
 import Projects from "./components/Projects";
+import ProjectsEn from "./components/ProjectsEn";
 import PrPortfolyo from "./components/PrPortfolyo";
+import PrPortfolyoEn from "./components/PrPortfolyoEn";
 import PrTanitim from "./components/PrTanitim";
+import PrTanitimEn from "./components/PrTanitimEn";
 import PrStok from "./components/PrStok";
+import PrStokEn from "./components/PrStokEn";
 import PrOtoban from "./components/PrOtoban";
+import PrOtobanEn from "./components/PrOtobanEn";
 import PrCountdown from "./components/PrCountdown";
+import PrCountdownEn from "./components/PrCountdownEn";
 import PrShopping from "./components/PrShopping";
+import PrShoppingEn from "./components/PrShoppingEn";
 import PrDoviz from "./components/PrDoviz";
+import PrDovizEn from "./components/PrDovizEn";
 import Prilk from "./components/Prilk";
+import PrilkEn from "./components/PrilkEn";
 import Galery from "./components/Galery";
 import İletişim from "./components/İletişim";
+import İletişimEn from "./components/İletişimEn";
 import "./scss/styles.css";
 
 export default function App() {
@@ -35,7 +45,6 @@ export default function App() {
             </>
           )}
         />
-
         <Route
           path="/en/"
           exact
@@ -46,28 +55,225 @@ export default function App() {
             </>
           )}
         />
-        <Route path="/projeler/ilk_web_sitem/" exact component={(Prilk, Nav)} />
-        <Route path="/iletisim/" exact component={(İletişim, Nav)} />
-        <Route path="/galeri/" exact component={(Galery, Nav)} />
+        <Route
+          path="/projeler/ilk_web_sitem/"
+          exact
+          render={() => (
+            <>
+              <Prilk />
+              <Nav />
+            </>
+          )}
+        />
+        <Route
+          path="/projeler/ilk_web_sitem/en/"
+          exact
+          render={() => (
+            <>
+              <PrilkEn />
+              <NavEn />
+            </>
+          )}
+        />
+        <Route
+          path="/iletisim/"
+          exact
+          render={() => (
+            <>
+              <İletişim />
+              <Nav />
+            </>
+          )}
+        />
+        <Route
+          path="/iletisim/en/"
+          exact
+          render={() => (
+            <>
+              <İletişimEn />
+              <NavEn />
+            </>
+          )}
+        />
+        <Route
+          path="/galeri/"
+          exact
+          render={() => (
+            <>
+              <Galery />
+              <Nav />
+            </>
+          )}
+        />
+        <Route
+          path="/galeri/en/"
+          exact
+          render={() => (
+            <>
+              <Galery />
+              <NavEn />
+            </>
+          )}
+        />
         <Route
           path="/projeler/doviz_hesaplama/"
           exact
-          component={(PrDoviz, Nav)}
+          render={() => (
+            <>
+              <PrDoviz />
+              <Nav />
+            </>
+          )}
         />
-        <Route path="/projeler/shopping/" exact component={(PrShopping, Nav)} />
+        <Route
+          path="/projeler/doviz_hesaplama/en/"
+          exact
+          render={() => (
+            <>
+              <PrDovizEn />
+              <NavEn />
+            </>
+          )}
+        />
+        <Route
+          path="/projeler/shopping/"
+          exact
+          render={() => (
+            <>
+              <PrShopping />
+              <Nav />
+            </>
+          )}
+        />
+        <Route
+          path="/projeler/shopping/en/"
+          exact
+          render={() => (
+            <>
+              <PrShoppingEn />
+              <NavEn />
+            </>
+          )}
+        />
         <Route
           path="/projeler/countdown_to_do/"
           exact
-          component={(PrCountdown, Nav)}
+          render={() => (
+            <>
+              <PrCountdown />
+              <Nav />
+            </>
+          )}
         />
-        <Route path="/projeler/otoban_oto/" exact component={(PrOtoban, Nav)} />
-        <Route path="/projeler/stok_takip/" exact component={(PrStok, Nav)} />
-        <Route path="/projeler/tanitim/" exact component={(PrTanitim, Nav)} />
-        <Route path="/projeler/" exact component={(Projects, Nav)} />
+        <Route
+          path="/projeler/countdown_to_do/en/"
+          exact
+          render={() => (
+            <>
+              <PrCountdownEn />
+              <NavEn />
+            </>
+          )}
+        />
+        <Route
+          path="/projeler/otoban_oto/"
+          exact
+          render={() => (
+            <>
+              <PrOtoban />
+              <Nav />
+            </>
+          )}
+        />
+        <Route
+          path="/projeler/otoban_oto/en/"
+          exact
+          render={() => (
+            <>
+              <PrOtobanEn />
+              <NavEn />
+            </>
+          )}
+        />
+        <Route
+          path="/projeler/stok_takip/"
+          exact
+          render={() => (
+            <>
+              <PrStok />
+              <Nav />
+            </>
+          )}
+        />
+        <Route
+          path="/projeler/stok_takip/en/"
+          exact
+          render={() => (
+            <>
+              <PrStokEn />
+              <NavEn />
+            </>
+          )}
+        />
+        <Route
+          path="/projeler/tanitim/"
+          exact
+          render={() => (
+            <>
+              <PrTanitim />
+              <Nav />
+            </>
+          )}
+        />
+        <Route
+          path="/projeler/tanitim/en/"
+          exact
+          render={() => (
+            <>
+              <PrTanitimEn />
+              <NavEn />
+            </>
+          )}
+        />
+        <Route
+          path="/projeler/"
+          exact
+          render={() => (
+            <>
+              <Projects />
+              <Nav />
+            </>
+          )}
+        />
+        <Route
+          path="/projeler/en/"
+          exact
+          render={() => (
+            <>
+              <ProjectsEn />
+              <NavEn />
+            </>
+          )}
+        />
         <Route
           path="/projeler/portfolyo/"
           exact
-          component={(PrPortfolyo, Nav)}
+          render={() => (
+            <>
+              <PrPortfolyo />
+              <Nav />
+            </>
+          )}
+        />
+        <Route
+          path="/projeler/portfolyo/en/"
+          exact
+          render={() => (
+            <>
+              <PrPortfolyoEn />
+              <NavEn />
+            </>
+          )}
         />
         <Route
           path="/cv/"
@@ -89,7 +295,6 @@ export default function App() {
             </>
           )}
         />
-
         <Route
           path="/hakkimda/"
           exact
