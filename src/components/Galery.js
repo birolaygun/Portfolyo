@@ -80,7 +80,7 @@ const Galery = () => {
               {" "}
               <img src={m} alt="" />{" "}
             </li>
-            <li class="big">
+            <li class="vertical">
               {" "}
               <img src={n} alt="" />{" "}
             </li>
@@ -92,7 +92,7 @@ const Galery = () => {
               {" "}
               <img src={p} alt="" />{" "}
             </li>
-            <li class="horizontal">
+            <li class="vertical">
               {" "}
               <img src={r} alt="" />{" "}
             </li>

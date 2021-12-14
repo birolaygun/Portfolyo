@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-const Headers = () => {
+const HeadersEn = () => {
   return (
     <div className="headers">
       <div className="about">
-        <Link to="/hakkimda/">
+        <Link to="/hakkimda/en/">
           <div className="svg">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -20,14 +20,14 @@ const Headers = () => {
             </svg>
           </div>
           <div className="side">
-            <h1>Hakkımda</h1>
-            <p>Hakkımda daha fazla bilgi edinmek için tıklayın</p>
+            <h1>About Me</h1>
+            <p>Do You Want To learn About Me More</p>
           </div>
         </Link>
       </div>
 
       <div className="cvHd">
-        <Link to="/cv/">
+        <Link to="/cv/en/">
           <div className="svg">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +48,7 @@ const Headers = () => {
       </div>
 
       <div className="projects">
-        <Link to="/projeler/">
+        <Link to="/projeler/en/">
           <div className="svg">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +67,7 @@ const Headers = () => {
       </div>
 
       <div className="galery">
-        <Link to="/galeri/">
+        <Link to="/galeri/en/">
           <div className="svg">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -87,7 +87,7 @@ const Headers = () => {
       </div>
 
       <div className="contact">
-        <Link to="/iletisim/">
+        <Link to="/iletisim/en/">
           <div className="svg">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -112,4 +112,4 @@ const Headers = () => {
   );
 };
 
-export default Headers;
+export default HeadersEn;

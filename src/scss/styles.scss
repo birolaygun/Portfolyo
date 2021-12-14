@@ -1,27 +1,22 @@
-
-$first: #ca0360;
-$second: #b5179e;
-$third: #7209b7;
-$fourd: #560bad;
-$fifth: #480ca8;
-$sixth: #3a0ca3;
-$seventh: #3f37c9;
-$eighth: #4361ee;
-$nineth: #4895ef;
-$tenth: #4cc9f0;
+$first: #b3b4bd;
+$second: #29293c;
+$third: #29293c;
+$fourd: #29293c;
+$fifth: #29293c;
+$sixth: #29293c;
+$seventh: #29293c;
+$eighth: #29293c;
+$nineth: #29293c;
+$tenth: #1b1b2a;
 
 body {
   background-color: $tenth;
+
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
 }
 
-
-
 //NAV
-
-
-
 
 .socialMd,
 .navMd {
@@ -32,65 +27,61 @@ body {
   width: 100%;
   z-index: 10;
 }
-  .leftNav {
-    position: relative;
-    width: 15%;
-    height: 100vh;
-    left: 0%;
-  
-    img {
-      width: 85px;
-      margin: 50px 0px 0px 20px;
-      cursor: pointer;
-    }
-  }
+.leftNav {
+  position: relative;
+  width: 15%;
+  height: 100vh;
+  left: 0%;
 
-  .rightNav {
-    position: relative;
+  img {
+    width: 85px;
+    margin: 50px 0px 0px 20px;
+    cursor: pointer;
+  }
+}
+
+.rightNav {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 15%;
+  height: 100vh;
+  left: 70%;
+
+  button {
+    color: $tenth;
+    font-weight: bold;
+    margin-top: 50px;
+    background-color: $first;
+  }
+  button:hover {
+    color: $first;
+    background-color: $sixth;
+  }
+  .social {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 15%;
-    height: 100vh;
-    left: 70%;
+    margin-top: 50px;
+  }
+  .social a {
+    margin: 10px !important;
+  }
+  a:hover {
+    cursor: auto;
+  }
 
-    button {
-      color: white;
-      margin-top: 50px;
-      background-color: $first;
+  i {
+    color: $first;
+  }
 
-    }
-    button:hover {
-      color: white;
-      background-color: $sixth;
-    }
-    .social {
-      display: flex;
-      flex-direction: column;
-      margin-top: 50px;
-    }
-    .social a{
-      margin: 10px !important;
-    }
-      a:hover {
-        cursor: auto;
-      }
-
-      i {
-        color: $sixth;
-      }
-
-      i:hover {
-        cursor: pointer;
-        text-shadow: 1px 1px 20px $first;
-      }
-    }
-
-
-    
+  i:hover {
+    cursor: pointer;
+    text-shadow: 1px 1px 20px $first;
+  }
+}
 
 // Mains
-
 
 .main {
   width: 70%;
@@ -319,12 +310,7 @@ body {
   position: fixed;
 }
 
-
-
-
 // Headers
-
-
 
 .headers {
   z-index: 11;
@@ -340,14 +326,14 @@ body {
   width: 40vw;
   height: 150px;
   max-width: 527px;
-  background: #4896efc7;
+  background: #dcdcdcd0;
   border-radius: 5px;
   margin-bottom: 30vh;
   text-decoration: none;
   cursor: pointer;
 }
 .headers > div > a:hover {
-  box-shadow: 0px 0px 5px $first,
+  box-shadow: 0px 0px 15px $first;
 }
 .svg {
   margin: auto;
@@ -358,274 +344,262 @@ body {
   margin: 10px;
 }
 .side {
-padding: 10px;
-margin: auto;
-  h1{
+  padding: 10px;
+  margin: auto;
+  h1 {
     font-weight: bold;
-    color: $seventh;
+    color: $tenth;
     font-size: 2rem;
   }
-  p{
+  p {
     font-weight: bold;
     color: $fourd;
     font-size: 1rem;
   }
 }
 
-.cvHd a, .galery a{
+.cvHd a,
+.galery a {
   flex-direction: row-reverse;
-  margin-left: calc(30vw - 10px)  !important;
+  margin-left: calc(30vw - 10px) !important;
 }
-
-
-
-
-
-
 
 //About
 
-
-
-
-.aboutme img{
+.aboutme img {
   border-radius: 500px;
   width: 50vw;
   max-width: 400px;
 }
-.aboutme h1{
-margin: auto;
-padding: 10px;
-font-weight: bold;
-color: $sixth;
-width: min-content;
-font-size: 3rem;
+.aboutme h1 {
+  margin: auto;
+  padding: 10px;
+  font-weight: bold;
+  color: $first;
+  width: fit-content;
+  font-size: 3rem;
 }
-.img{
+.img {
   margin: 0 auto;
   width: min-content;
 }
-.introduction h2{
+.introduction h2 {
   margin: 20px;
   font-weight: bold;
   color: $first;
 }
-.introduction p{
+.introduction p {
   margin: 20px;
   font-size: 1rem;
-  color: $sixth;
+  color: $first;
   text-align: justify;
-  b{
-      font-size: 1rem;
-
+  b {
+    font-size: 1rem;
   }
 }
 
-
-
-
 //cv
 
-
-
-.cv{
+.cv {
   z-index: 11;
 }
-    .cvdwn {
-      color: white;
-      margin: 10px 0;
-      background-color: $first;
+.cvdwn {
+  color: $tenth;
+  font-size: bold;
+  margin: 10px 0;
+  background-color: $first;
+}
+.cvdwn:hover {
+  color: $first;
+  background-color: $sixth;
+}
 
-    }
-    .cvdwn:hover {
-      color: white;
-      background-color: $sixth;
-    }
-    
-.aboutMeCv > *{
-max-width: 100%;
+.aboutMeCv > * {
+  max-width: 100%;
 }
 .aboutMeCv {
-width: 100%;
+  width: 100%;
 }
-.cv h1{
-margin: auto;
-padding: 10px;
-font-weight: bold;
-color: $sixth;
-width: min-content;
-font-size: 3rem;
+.cv h1 {
+  margin: auto;
+  padding: 10px;
+  font-weight: bold;
+  color: $first;
+  width: min-content;
+  font-size: 3rem;
 }
-.cv img{
-width: 60vw;
-max-width: 400px;
-
+.cv img {
+  width: 60vw;
+  max-width: 400px;
 }
-.head{
+.head {
   display: flex;
   align-items: center;
   margin: 15px auto;
 }
-.aboutMeCv svg{
+.aboutMeCv svg {
   width: 70px;
   margin: 0 30px 5px 0;
-    color: $sixth;
+  color: $first;
 }
-.aboutMeCv hr{
+.aboutMeCv hr {
   color: $first;
   height: 2px;
   opacity: 1;
 }
-.aboutMeCv h2{
-  color: $sixth;
+.aboutMeCv h2 {
+  color: $first;
   font-weight: bold;
 }
-.personel{
-  color: $fourd
+.personel {
+  color: $first;
 }
-.personel label{
-    font-weight: bold;
-    font-size: 1rem;
-    width: 140px;
-  }
-.personel p{
-    font-size: 1rem;
-  }
-  .personel > div > div{
-    display: flex;
-  }
+.personel label {
+  font-weight: bold;
+  font-size: 1rem;
+  width: 140px;
+}
+.personel p {
+  font-size: 1rem;
+}
+.personel > div > div {
+  display: flex;
+}
 .educate {
-  color: $fourd;
+  color: $first;
 }
-.educate li{
-font-size: 1rem;
-font-weight: bold;
+.educate li {
+  font-size: 1rem;
+  font-weight: bold;
 }
-.educate p{
-font-size: 1rem;
+.educate p {
+  font-size: 1rem;
 }
-.educate small{
-font-size: 0.7rem;
-font-weight: bold;
+.educate small {
+  font-size: 0.7rem;
+  font-weight: bold;
 }
 
-.job{
-  color: $fourd
+.job {
+  color: $first;
 }
-.job h3{
-    font-size: 1rem;
-    font-weight: bold;
-    margin: 8px;
+.job h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 8px;
 }
-.job h3{
-    font-size: 1rem;
-    font-weight: bold;
-    margin: 8px;
+.job h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 8px;
 }
-.lisance{
-  color: $fourd
+.lisance {
+  color: $first;
 }
-.lisance h3{
-    font-size: 1rem;
-    font-weight: bold;}
-.lisance h4{
-    font-size: 1rem;
-margin-bottom: 20px;}
- .computer > div{
-     display: flex;
-     justify-content: space-between;
-     margin: 3px 0;
- }
- .computer > div > label{
-font-weight: bold;
- }
+.jobHr {
+  height: 1px;
+  background-color: $sixth;
+  width: 80%;
+}
+
+.lisance h3 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.lisance h4 {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+.computer > div {
+  display: flex;
+  justify-content: space-between;
+  margin: 3px 0;
+}
+.computer > div > label {
+  font-weight: bold;
+}
+label {
+  color: $first;
+}
 input[type="range"] {
-    -webkit-appearance: none; 
-    width: 12em;
-    background: transparent;
-    position: relative;
-}   
+  -webkit-appearance: none;
+  width: 12em;
+  background: transparent;
+  position: relative;
+}
 input[type="range"]::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    width: 1em;
-    height: 1em;
-    margin: .2em 0;
-    background: $first;
-    border-radius: 100%;
-    box-shadow: 
-    inset .8em .8em 5px -8px rgba(255, 255, 255, 0.192),
-    inset -.4em -.4em 10px -3px rgba(0, 0, 0, 0.329),
-    0.7em 0.5em 7px -0.5em rgba(0, 0, 0, 0.842);;
+  -webkit-appearance: none;
+  width: 1em;
+  height: 1em;
+  margin: 0.2em 0;
+  background: $first;
+  border-radius: 100%;
+  box-shadow: inset 0.8em 0.8em 5px -8px rgba(255, 255, 255, 0.192),
+    inset -0.4em -0.4em 10px -3px rgba(0, 0, 0, 0.329),
+    0.7em 0.5em 7px -0.5em rgba(0, 0, 0, 0.842);
 }
 input[type="range"]::-webkit-slider-runnable-track {
-    background: transparent;
-    width: 100%;
-    padding: 0 1em;
-    border-radius: 2em;
-    box-shadow: 
-    inset .6em 1em 10px rgba(0,0,0,.15),
-    inset -.6em -1em 10px rgba(255, 255, 255, 0.199);
+  background: transparent;
+  width: 100%;
+  padding: 0 1em;
+  border-radius: 2em;
+  box-shadow: inset 0.6em 1em 10px rgba(0, 0, 0, 0.15),
+    inset -0.6em -1em 10px rgba(255, 255, 255, 0.199);
 }
 input[type="range"]::before {
-    content: "0 1 2 3 4 5 6 7 8 9";
-    position: absolute;
-    text-align: center;
-    color: $sixth;
-    font-size: 0.8em;
-    letter-spacing: .16em;
-    top: -18px; 
-    left: 0; 
-    padding: 1.6em;
-    text-shadow: .5px .5px 0.9px rgba(0,0,0, .4);
-    z-index: -1;
+  content: "0 1 2 3 4 5 6 7 8 9";
+  position: absolute;
+  text-align: center;
+  color: $first;
+  font-size: 0.8em;
+  letter-spacing: 0.16em;
+  top: -18px;
+  left: 0;
+  padding: 1.6em;
+  text-shadow: 0.5px 0.5px 0.9px rgba(0, 0, 0, 0.4);
+  z-index: -1;
 }
-.computer{
-  color: $fourd;
+.computer {
+  color: $first;
 }
-.computer > div{
-border-bottom: 1px solid $nineth;}
-.lang{
-    color: $fourd;
+.computer > div {
+  border-bottom: 1px solid $nineth;
 }
-.lang h3{
-    font-weight: bold;
+.lang {
+  color: $first;
 }
-.lang p{
-font-size: 1rem;
+.lang h3 {
+  font-weight: bold;
 }
-.lang b{
-font-size: 1rem;
+.lang p {
+  font-size: 1rem;
+}
+.lang b {
+  font-size: 1rem;
 }
 
-
-.paragraph p{
-    color: $fourd;
-font-size: 1rem;
+.paragraph p {
+  color: $first;
+  font-size: 1rem;
 }
 .paragraph {
-margin-bottom: 100px;
+  margin-bottom: 100px;
 }
-
-
-
 
 //projects
 
-
-
-
-.myprojects > *{
-max-width: 100%;
+.myprojects > * {
+  max-width: 100%;
 }
-.myprojects h1{
-margin: auto;
-padding: 10px;
-font-weight: bold;
-color: $sixth;
-width: min-content;
-font-size: 3rem;
+.myprojects h1 {
+  margin: auto;
+  padding: 10px;
+  font-weight: bold;
+  color: $first;
+  width: min-content;
+  font-size: 3rem;
 }
-.allprojects{
+.allprojects {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -633,45 +607,45 @@ font-size: 3rem;
   align-items: stretch;
   align-content: stretch;
 }
-.allprojects img{
+.allprojects img {
   width: 20vw;
-  min-width: 250px
+  min-width: 250px;
 }
-.allprojects h2{
-    color: $fourd;
-    text-align: center;
-    text-decoration: none;
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-top: 20px;
+.allprojects h2 {
+  color: $tenth;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 20px;
 }
 .allprojects > a {
-    margin: 20px;
-    padding: 5px;
-    border-radius: 5px;
-    background-color: rgba(47, 47, 121, 0.11);
-    z-index: 11;
-    cursor: pointer;
-}
-.allprojects > a:hover{
-    box-shadow: 0px 0px 30px $first,
-}
-.myprojects p{
-font-size: 1.2rem;
-color: $sixth;}
-.myprojects b{
-font-size: 1.2rem;
-}
+  margin: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color:#dcdcdca9;
+  z-index: 11;
+  cursor: pointer;
+    text-decoration: none;
 
-
-
+}
+.allprojects > a:hover {
+  box-shadow: 0px 0px 30px $first;
+}
+.myprojects p {
+  font-size: 1.2rem;
+  color: $first;
+}
+.myprojects b {
+  font-size: 1.2rem;
+}
 
 //ortak
 
-
-
-.aboutme, .cv, .myprojects, .prproject{
-
+.aboutme,
+.cv,
+.myprojects,
+.prproject {
   position: absolute;
   width: 70vw;
   margin-left: 15vw;
@@ -679,137 +653,130 @@ font-size: 1.2rem;
   margin-top: 5px;
   padding-bottom: 100px;
 }
-.prproject{
+.prproject {
   z-index: 12;
-a{
+  a {
     font-size: 1rem;
-  color: $fourd;
-}
-img{
-  width: 100%;
-  margin:10px 0 ;
-}
-ul{
-    color: $fourd;
+    color: $first;
+  }
+  img {
+    width: 100%;
+    margin: 10px 0;
+  }
+  ul {
+    color: $first;
     list-style: decimal;
-li{
-
-}
-}
-
+    li {
+    }
+  }
 }
 
-.prproject h1{
+.prproject h1 {
   width: fit-content;
   margin: auto;
   font-size: 3rem;
   font-weight: bold;
-  color: $sixth;
+  color: $first;
 }
-.prproject h2{
+.prproject h2 {
   width: min-content;
   margin: 10px auto;
   font-size: 2rem;
   font-weight: bold;
-  color: $sixth;
+  color: $first;
 }
-.prproject h3{
+.prproject h3 {
   font-size: 1rem;
   font-weight: bold;
-  color: $sixth;
+  color: $first;
 }
-.links{
- margin: 15px 0;
+.links {
+  margin: 15px 0;
 }
-.prproject p{
+.prproject p {
   font-size: 1.2rem;
-  color: $fourd;
+  color: $first;
   text-align: justify;
-  b{
-      font-size: 1.2rem;
+  b {
+    font-size: 1.2rem;
   }
 }
-.imgPr img{
+.imgPr img {
   width: 60vw;
   max-width: 500px;
   margin: 20px;
 }
 
-
 // Contact
 
-
-.prproject{ 
-  h2{
-  width: fit-content;
-  margin:20px 0%;
+.prproject {
+  h2 {
+    width: fit-content;
+    margin: 20px 0%;
+  }
+  hr {
+    opacity: 1;
+    color: $first;
+    height: 3px;
+  }
 }
-hr{opacity: 1;
-color: $first;
-height: 3px;
-}
-}
-
 
 //contact
 
-
-
-iframe{
+iframe {
   width: calc(70vw - 20px);
   max-width: 650px;
   max-height: 322px;
   height: 33vw;
   position: static;
-  left: 0 ;
+  left: 0;
   margin: 0px;
 }
-.ifra{
+.ifra {
   margin: auto;
   width: fit-content;
   padding: auto;
-  background-color: #fff;
+  background-color: $first;
 }
 .tel * {
-  color: $sixth;
+  color: $first;
   text-decoration: none;
   display: inline-block;
   margin: 5px 0;
 }
 .tel *:hover {
-        text-shadow: 1px 1px 10px $first;
+  text-shadow: 1px 1px 10px $first;
 }
 .tel svg {
   margin-right: 10px;
   margin-bottom: 10px;
 }
 
-
-
-.grid-wrap ul{
+.grid-wrap ul {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   grid-auto-rows: 120px;
   grid-auto-flow: dense;
   li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
 
-   img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  box-shadow: 0 2px 16px var(--shadow);
-  transition: 0.2s;
-}
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      box-shadow: 0 2px 16px var(--shadow);
+      transition: 0.2s;
+    }
 
-img:hover{
- transform: scale(1.5);
+    img:hover {
+      transform: scale(1.5);
+    }
+  }
 }
-}}
 
 .horizontal {
   grid-column: span 2;
@@ -828,36 +795,17 @@ img:hover{
   grid-row: span 1;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (min-width: 450px) and (max-width: 800px) {
   * {
     font-size: 0.8rem;
   }
 
-
   //nav
-
-
 
   .nav {
     .leftNav {
       img {
-  width: 65px;
+        width: 65px;
         margin: 20px 0px 0px 5px;
       }
     }
@@ -871,15 +819,12 @@ img:hover{
     }
   }
 
-
   //mains
-
-
 
   .welcome1 p {
     font-size: 5rem;
   }
-  
+
   .headers > div {
     max-width: 70vw;
     min-width: 290px;
@@ -888,75 +833,40 @@ img:hover{
     width: 100px;
   }
 
-
-
   //cv
 
-
-input[type="range"]::before {
-    top: -12px; 
+  input[type="range"]::before {
+    top: -12px;
   }
 
+  //Headers
 
-
-//Headers
-
-
-
-.headers > div > a {
-  width: 50vw;
-  height: 120px;
-}
-.svg svg {
-  width: 10vh;
-  margin: 10px;
-}
-.side {
-  h1{
-    font-size: 1.5rem;
+  .headers > div > a {
+    width: 50vw;
+    height: 120px;
+  }
+  .svg svg {
+    width: 10vh;
+    margin: 10px;
+  }
+  .side {
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+  .cvHd a,
+  .galery a {
+    flex-direction: row-reverse;
+    margin-left: calc(20vw - 10px) !important;
   }
 }
-.cvHd a, .galery a{
-  flex-direction: row-reverse;
-  margin-left: calc(20vw - 10px)  !important;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (min-width: 1px) and (max-width: 449px) {
   * {
     font-size: 0.8rem;
   }
 
-
-
   //nav
-
 
   .socialMd,
   .navMd {
@@ -977,10 +887,10 @@ input[type="range"]::before {
     height: 50px;
     margin: auto;
   }
-.navMd img{
-  width: 75px;
-  cursor: pointer;
-}
+  .navMd img {
+    width: 75px;
+    cursor: pointer;
+  }
   .socialMd {
     height: 40px;
     z-index: 20;
@@ -994,24 +904,22 @@ input[type="range"]::before {
   .socialMd > a {
     margin: auto;
   }
-  .socialMd > a > i{
+  .socialMd > a > i {
     color: $sixth;
   }
   .navMd button {
-    background-color: $sixth;
-    color: white;
+    background-color: $tenth;
+    color: $first;
+    font-size: bold;
     margin-right: 10px;
   }
   .navMd button:hover {
-    color: white;
-    background-color: $tenth;
+    color: $first;
+
+    background-color: $sixth;
   }
 
-
-
   //main
-
-
 
   .welcome div p {
     font-size: 2rem;
@@ -1020,94 +928,73 @@ input[type="range"]::before {
     font-size: 10rem;
   }
 
-
-@keyframes welcome3 {
-  34% {
-    visibility: hidden;
+  @keyframes welcome3 {
+    34% {
+      visibility: hidden;
+    }
+    36% {
+      visibility: visible;
+      opacity: 0;
+      padding-top: 0;
+    }
+    38% {
+      padding-top: 25vh;
+      opacity: 1;
+    }
+    48% {
+      opacity: 1;
+      padding-top: 25vh;
+    }
+    50% {
+      visibility: visible;
+      opacity: 0;
+      padding-top: 0;
+    }
+    51% {
+      visibility: hidden;
+    }
   }
-  36% {
-    visibility: visible;
-    opacity: 0;
-    padding-top: 0;
-  }
-  38% {
-    padding-top: 25vh;
-    opacity: 1;
-  }
-  48% {
-    opacity: 1;
-    padding-top: 25vh;
-  }
-  50% {
-    visibility: visible;
-    opacity: 0;
-    padding-top: 0;
-  }
-  51% {
-    visibility: hidden;
-  }
-}
-
-
-
-
 
   //headers
 
+  .headers {
+    position: absolute;
+    width: 100vw;
+    margin-left: 0vw;
+    padding: 10px;
+    margin-top: 75vh;
+    padding-bottom: 100px;
+  }
+  .headers > div > a {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    margin-bottom: 20vh;
+  }
 
+  .cvHd a,
+  .galery a {
+    flex-direction: row;
+    margin-left: 0 !important;
+  }
 
-
-
-.headers {
-  position: absolute;
-  width: 100vw;
-  margin-left: 0vw;
-  padding: 10px;
-  margin-top: 75vh;
-  padding-bottom: 100px;
-}
-.headers > div > a {
-  display: flex;
-  width: 100%;
-  height: 120px;
-  margin-bottom: 20vh;
-}
-
-.cvHd a, .galery a{
-  flex-direction: row;
-  margin-left: 0  !important;
-}
-
-
-iframe{
-  width: calc(100vw - 20px);
-  height: 45vw;
-}
-
-
+  iframe {
+    width: calc(100vw - 20px);
+    height: 45vw;
+  }
 
   //cv
 
-
-
-input[type="range"]::before {
-    top: -12px; 
+  input[type="range"]::before {
+    top: -12px;
   }
 
-  
-.aboutme, .cv, .myprojects, .prproject{
-width: 100%;
-margin-left: 0;
-margin-top: 50px
+  .aboutme,
+  .cv,
+  .myprojects,
+  .prproject {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 50px;
+  }
 }
-
-
-}
-
-
-
-
-
-
-
-

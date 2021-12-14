@@ -12,7 +12,7 @@ const About = () => {
       <div className="introduction">
         <h2>Birol AYGÜN Kimdir ?</h2>
         <p>
-          22/111987 tarihinde Ankara'da doğdum. Babam işçi annem ise ev
+          22/11/1987 tarihinde Ankara'da doğdum. Babam işçi annem ise ev
           hanımıydı. Çocoklugum Kazan ilçesinde geçti ve İlköğretim Eğitimimi{" "}
           <b>Şahin İlköğretim Okulu</b> 'nda tamamladım.
         </p>

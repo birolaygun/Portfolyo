@@ -3,14 +3,13 @@ import buz from "../buzBrl.gif";
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
 
-const Nav = (props) => {
+const NavEn = () => {
   const [enLink, setEnLink] = useState(window.location.href);
-
   return (
     <div>
       <div className="nav">
         <div className="leftNav">
-          <Link to="/">
+          <Link to="/en/">
             <img src={buz} alt="" />
           </Link>
         </div>
@@ -27,7 +26,7 @@ const Nav = (props) => {
             }}
           >
             <button href={enLink} className="btn">
-              EN
+              TR
             </button>
           </a>
 
@@ -52,7 +51,7 @@ const Nav = (props) => {
       </div>
 
       <div className="navMd">
-        <Link to="/">
+        <Link to="/en/">
           <img src={Logo} alt="" />{" "}
         </Link>
 
@@ -66,9 +65,8 @@ const Nav = (props) => {
             }
           }}
         >
-          {" "}
           <button href={enLink} className="btn">
-            EN
+            TR
           </button>
         </a>
       </div>
@@ -93,4 +91,4 @@ const Nav = (props) => {
   );
 };
 
-export default Nav;
+export default NavEn;

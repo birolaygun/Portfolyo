@@ -12,46 +12,45 @@ const AboutEn = () => {
       <div className="introduction">
         <h2>Who Is Birol AYGÜN ?</h2>
         <p>
-          22/111987 tarihinde Ankara'da doğdum. Babam işçi annem ise ev
-          hanımıydı. Çocoklugum Kazan ilçesinde geçti ve İlköğretim Eğitimimi{" "}
-          <b>Şahin İlköğretim Okulu</b> 'nda tamamladım.
+          I was born on 22/11/1987 in Ankara. My father was a worker and my
+          mother was a housewife. My childhood passed in Kazan district I
+          finished <b>Şahin İlköğretim Okulu</b> here.
         </p>
-        <h2>Eğitim Hayatım</h2>
+
+        <h2>My Education Life</h2>
         <p>
           {" "}
-          2002 yılında girdiğim <b>Etimesgut Anadolu Lisesi</b>'ni 2006 yılında
-          bitirdim. 2007 yılında <b>ODTÜ</b> Fen Bilgisi Öğretmenliği bölümüne
-          yerleştim. 2008 yılında <b>Polis Akademisi</b>'ni kaazandım ve
-          ODTÜ'den ayrılıp kaydımı buraya aldım. Buradan 2012 yılında mezun
-          olarak <b>Komiser Yardımcısı</b> olarak Emniyet Genel Müdürlüğü'nde
-          göreve başladım.
+          I graduated from <b>Etimesgut Anatolian High School</b>, which I
+          entered in 2002, in 2006. In 2007, I moved to the <b>METU</b>{" "}
+          Elementary Science Education. I won the <b>Police Academy</b> in 2008
+          and left METU and registered here. After graduating from here in 2012,
+          I started to work in the Turkish National Police Organization as{" "}
+          <b>Assistant Commissioner</b>.
         </p>
-        <h2>İş Hayatım</h2>
+        <h2>My Business Life</h2>
         <p>
           {" "}
-          2012-2013 yılları arasında Ankara'da, 2013-2016 yılları arasında
-          Mersin'de görev yaptıktan sonra Emniyet Teşkilatından ayrıldım. Farklı
-          mesleklerde deneyimlerim olmasına rağmen aradığımı bulamamıştım, ta ki
-          yakın bir arkadaşımın ısrarlarına dayanamayıp{" "}
-          <b>"Neymiş bu Web Tasarımı ? göster bakalım.."</b> diye sorana kadar.{" "}
+          After working in Ankara between 2012-2013 and Mersin between
+          2013-2016, I left the Police Force. Despite my experience in different
+          professions, I could not find what I was looking for, until I met{" "}
+          <b> Web Design</b>.{" "}
         </p>
-        <h2>FrontEnd İle Tanışmam</h2>
+        <h2>My Meeting with FrontEnd</h2>
         <p>
           {" "}
-          Web Tasarımı işini çok sevdim, araştırmalarım sonrasında FrontEnd üzerine kendimi geliştirmeye
-          karar verdim. Bilgisayar konusunda var olan
-          bilgi ve birikimime de güvenerek <b>Udemy</b> üzerinden eğitimime
-          başladım. Sayısalcı olmamın ve analitik düşünebilme yeteneğimi
-          kullanabilmemin bana verdiği motivasyon ile keyif alarak hızlı bir
-          şekilde eğitimimi tamamladım. Eğitimime başlayalı henüz 20 gün
-          olmuştu ki ilk sitemi internette yayınlamıştım bile. Daha sonra birçok
-          proje ve yayınladığım siteler ile tecrübemi arttırdım.{" "}
+          I loved the Web Design job, after my research, I decided to develop
+          myself on FrontEnd. I started my education on <b>Udemy</b>. I
+          completed my education quickly. It had only been 20 days since I
+          started my education that I had already published my first site on the
+          Internet. Later, I increased my experience with many projects and the
+          sites I published.{" "}
         </p>
-        <h2>Hobilerim</h2>
+        <h2>My Hobbies</h2>
         <p>
-          Aslında birçok hobim var, ama birtanesi diğerlerinden çok önde.{" "}
-          <b>Akvaryum</b> çok keyifli bir hobidir ve başlayanların bırakması çok
-          zordur. Şu an bitkili akvaryumumda melek ve transgenetik tetra balığı besliyorum.
+          Actually, I have many hobbies, but one is ahead of the others.{" "}
+          <b>Aquarium</b> is a very enjoyable hobby and it is very difficult for
+          beginners to quit. I am currently keeping angel fish and transgenetic tetra
+          fish in my planted aquarium.
         </p>
       </div>
     </div>
