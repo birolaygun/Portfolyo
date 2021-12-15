@@ -16,6 +16,8 @@ import PrTanitim from "./components/PrTanitim";
 import PrTanitimEn from "./components/PrTanitimEn";
 import PrStok from "./components/PrStok";
 import PrStokEn from "./components/PrStokEn";
+import PrPolice from "./components/PrPolice";
+import PrPoliceEn from "./components/PrPoliceEn";
 import PrOtoban from "./components/PrOtoban";
 import PrOtobanEn from "./components/PrOtobanEn";
 import PrCountdown from "./components/PrCountdown";
@@ -26,6 +28,8 @@ import PrDoviz from "./components/PrDoviz";
 import PrDovizEn from "./components/PrDovizEn";
 import Prilk from "./components/Prilk";
 import PrilkEn from "./components/PrilkEn";
+import PrMenu from "./components/PrMenu";
+import PrMenuEn from "./components/PrMenuEn";
 import Galery from "./components/Galery";
 import İletişim from "./components/İletişim";
 import İletişimEn from "./components/İletişimEn";
@@ -62,6 +66,26 @@ export default function App() {
             <>
               <Prilk />
               <Nav />
+            </>
+          )}
+        />
+        <Route
+          path="/projeler/policeCar/"
+          exact
+          render={() => (
+            <>
+              <PrPolice />
+              <Nav />
+            </>
+          )}
+        />
+        <Route
+          path="/projeler/policeCar/en/"
+          exact
+          render={() => (
+            <>
+              <PrPoliceEn />
+              <NavEn />
             </>
           )}
         />
@@ -122,6 +146,26 @@ export default function App() {
             <>
               <PrDoviz />
               <Nav />
+            </>
+          )}
+        />
+        <Route
+          path="/projeler/menu/"
+          exact
+          render={() => (
+            <>
+              <PrMenu />
+              <Nav />
+            </>
+          )}
+        />
+        <Route
+          path="/projeler/menu/en/"
+          exact
+          render={() => (
+            <>
+              <PrMenuEn />
+              <NavEn />
             </>
           )}
         />

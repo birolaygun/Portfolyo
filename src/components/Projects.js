@@ -7,6 +7,9 @@ import otoban from "../galery/otoban.gif";
 import portfolyo from "../galery/portfolyo.gif";
 import stok from "../galery/stok.gif";
 import todo from "../galery/todo.gif";
+import police from "../galery/police.gif";
+import menu from "../galery/menu.gif";
+
 import { Link } from "react-router-dom";
 
 const Projects = () => {
@@ -47,6 +50,26 @@ const Projects = () => {
               <img src={stok} alt="" />
             </div>{" "}
             <h2>Stok-Takip</h2>{" "}
+          </div>{" "}
+        </Link>
+        <Link to="/projeler/policeCar/">
+          {" "}
+          <div className="portfolyo">
+            {" "}
+            <div className="img">
+              <img src={police} alt="" />
+            </div>{" "}
+            <h2>Polis Arabası</h2>{" "}
+          </div>{" "}
+        </Link>
+        <Link to="/projeler/menu/">
+          {" "}
+          <div className="portfolyo">
+            {" "}
+            <div className="img">
+              <img src={menu} alt="" />
+            </div>{" "}
+            <h2>Menu</h2>{" "}
           </div>{" "}
         </Link>
         <Link to="/projeler/otoban_oto/">
