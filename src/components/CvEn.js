@@ -18,9 +18,13 @@ const CvEn = () => {
 
       <a
         onClick={() => {
-          if (window.confirm("CV's language is Turkish. Do you want to download it ?")) {
+          if (
+            window.confirm(
+              "CV's language is Turkish. Do you want to download it ?"
+            )
+          ) {
             saveAs(
-              "https://birolaygun.netlify.app/static/media/Birol_Aygün_CV.89549446.pdf"
+              "https://birolaygun.netlify.app/static/media/Birol_Aygun_CV.da555c28.pdf"
             );
           }
         }}
@@ -86,12 +90,7 @@ const CvEn = () => {
               <p>
                 Web Design and Coding <small>(Student)</small>{" "}
               </p>
-              <li>
-                Police Academy <small>(2008-2012)</small>
-              </li>
-              <p>
-                Security Units <small>(Graduate)</small>{" "}
-              </p>
+
               <li>
                 METU <small>(2007-2008)</small>
               </li>
@@ -120,18 +119,6 @@ const CvEn = () => {
           <div className="job">
             <div>
               <h3>
-                Mercedes-Benz Heska Dealer <span>(2021-2021)</span>
-              </h3>
-              <h4>- Front End Developer</h4>
-              <p>
-                I worked as a Freelancer for a project planned to be developed
-                for use between dealers.
-              </p>
-            </div>
-            <hr className="jobHr" />
-
-            <div>
-              <h3>
                 Mete Panel <span>(2020-2021)</span>
               </h3>
               <h4>- Warehouse – Stock Manager</h4>
@@ -153,18 +140,6 @@ const CvEn = () => {
                 incoming and outgoing products, receiving and sending the
                 products, arranging the waybills, ensuring that the stock
                 information is correct.
-              </p>
-            </div>
-            <hr className="jobHr" />
-
-            <div>
-              <h3>
-                Turkish National Police Organization <span>(2012-2016)</span>
-              </h3>
-              <h4>- Assistant Commissioner</h4>
-              <p>
-                Judicial, Administrative and Preventive Policing, Bureau Chief,
-                Group Chief.
               </p>
             </div>
           </div>

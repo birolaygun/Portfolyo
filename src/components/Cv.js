@@ -3,7 +3,6 @@ import brl from "../Brl.jpg";
 import cv from "../Birol_Aygun_CV.pdf";
 
 const Cv = () => {
-  
   return (
     <section className="cv">
       <header>
@@ -38,7 +37,7 @@ const Cv = () => {
             </div>
             <div>
               <label>Eğitim Durumu:</label>
-              <p>Lisans</p>
+              <p>Ön Lisans</p>
             </div>
             <div>
               <label>Askerlik:</label>
@@ -73,12 +72,7 @@ const Cv = () => {
               <p>
                 Web Tasarımı ve Kod <small>(Öğrenci)</small>{" "}
               </p>
-              <li>
-                Polis Akademisi <small>(2008-2012)</small>
-              </li>
-              <p>
-                Güvenlik Birimleri <small>(Mezun)</small>{" "}
-              </p>
+
               <li>
                 ODTÜ <small>(2007-2008)</small>
               </li>
@@ -107,18 +101,6 @@ const Cv = () => {
           <div className="job">
             <div>
               <h3>
-                Mercedes-Benz Heska Bayi <span>(2021-2021)</span>
-              </h3>
-              <h4>- Front End Developer</h4>
-              <p>
-                Bayiler arası kullanılmak üzere geliştirilmesi planlanan bir
-                proje için Freelancer olarak görev aldım.
-              </p>
-            </div>
-            <hr className="jobHr" />
-
-            <div>
-              <h3>
                 Mete Panel <span>(2020-2021)</span>
               </h3>
               <h4>- Depo – Stok Sorumlusu</h4>
@@ -138,17 +120,6 @@ const Cv = () => {
                 Depodaki ürünlerin düzeni, gelen ve gidecek olan ürünlerin
                 sayımı, ürünlerin teslim alınması ve gönderilmesi, irsaliyelerin
                 düzenlenmesi, Stok bilgilerinin doğru olmasının sağlanması.
-              </p>
-            </div>
-            <hr className="jobHr" />
-
-            <div>
-              <h3>
-                Emniyet Genel Müdürlüğü <span>(2012-2016)</span>
-              </h3>
-              <h4>- Komiser Yardımcısı</h4>
-              <p>
-                Adli, İdari ve Önleyici Polislik, Büro Amirliği, Grup Amirliği.
               </p>
             </div>
           </div>
