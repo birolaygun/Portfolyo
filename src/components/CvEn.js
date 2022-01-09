@@ -100,7 +100,25 @@ const CvEn = () => {
             </ul>
           </div>
         </div>
+        <hr />
 
+        <div className="lang">
+          <div className="head  ">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              class="bi bi-globe2"
+              viewBox="0 0 16 16"
+            >
+              <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z" />
+            </svg>{" "}
+            <h2>Languages </h2>
+          </div>
+          <h3>English</h3>
+          <p>
+            <b>İntermediate</b> level
+          </p>
+        </div>
         <hr />
 
         <div className="jobs">
@@ -116,6 +134,7 @@ const CvEn = () => {
             </svg>
             <h2>Work experiences</h2>
           </div>
+
           <div className="job">
             <div>
               <h3>
@@ -167,6 +186,12 @@ const CvEn = () => {
             <h3 className="headerTwo">Modern Web Development Course </h3>
             <h4>Mustafa Murat Coşkun</h4>
           </div>
+          <div>
+            <h3 className="headerTwo">
+              From Zero to All Aspects React ve Redux (2022){" "}
+            </h3>
+            <h4>Mehmet SEVEN</h4>
+          </div>
         </div>
 
         <hr />
@@ -181,7 +206,7 @@ const CvEn = () => {
             >
               <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z" />
             </svg>
-            <h2>Computer </h2>
+            <h2>Bilgisayar </h2>
           </div>
           <div className="computer">
             <div>
@@ -194,7 +219,7 @@ const CvEn = () => {
             <div>
               <label>CSS 3</label>{" "}
               <div>
-                <input type="range" value="90" disabled></input>
+                <input type="range" value="100" disabled></input>
               </div>{" "}
             </div>
 
@@ -208,14 +233,20 @@ const CvEn = () => {
             <div>
               <label>BootStrap</label>{" "}
               <div>
-                <input type="range" value="80" disabled></input>
+                <input type="range" value="90" disabled></input>
+              </div>{" "}
+            </div>
+            <div>
+              <label>TailWind</label>{" "}
+              <div>
+                <input type="range" value="70" disabled></input>
               </div>{" "}
             </div>
 
             <div>
               <label>JavaScript</label>{" "}
               <div>
-                <input type="range" value="90" disabled></input>
+                <input type="range" value="100" disabled></input>
               </div>{" "}
             </div>
             <div>
@@ -231,11 +262,29 @@ const CvEn = () => {
                 <input type="range" value="90" disabled></input>
               </div>{" "}
             </div>
+            <div>
+              <label>Next.js</label>{" "}
+              <div>
+                <input type="range" value="90" disabled></input>
+              </div>{" "}
+            </div>
 
             <div>
               <label>Redux</label>{" "}
               <div>
                 <input type="range" value="100" disabled></input>
+              </div>{" "}
+            </div>
+            <div>
+              <label>Recoil</label>{" "}
+              <div>
+                <input type="range" value="100" disabled></input>
+              </div>{" "}
+            </div>
+            <div>
+              <label>FireBase</label>{" "}
+              <div>
+                <input type="range" value="70" disabled></input>
               </div>{" "}
             </div>
             <div>
@@ -251,60 +300,6 @@ const CvEn = () => {
               </div>{" "}
             </div>
           </div>
-        </div>
-
-        <hr />
-
-        <div className="lang">
-          <div className="head  ">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="currentColor"
-              class="bi bi-globe2"
-              viewBox="0 0 16 16"
-            >
-              <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z" />
-            </svg>{" "}
-            <h2>Languages </h2>
-          </div>
-          <h3>English</h3>
-          <p>
-            <b>İntermediate</b> level. It is at a good level to benefit from
-            English resources.
-          </p>
-        </div>
-
-        <hr />
-
-        <div className="paragraph">
-          <div className="head  ">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="currentColor"
-              className="bi bi-clipboard-plus"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fillRule="evenodd"
-                d="M8 7a.5.5 0 0 1 .5.5V9H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V10H6a.5.5 0 0 1 0-1h1.5V7.5A.5.5 0 0 1 8 7z"
-              />
-              <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z" />
-              <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z" />
-            </svg>
-            <h2>Additional information </h2>
-          </div>
-          <p>
-            I have been dealing with Web Design for about 1 year. I developed
-            myself quickly with Udemy and open sources on the internet. Thanks
-            to my openness to learning and innovation, I learned HTML5, CSS3,
-            JavaScript, React and Redux languages in a short time. Along with
-            these, I also learned BootStrap.
-          </p>
-          <p>
-            Being open to innovations in the software world and keeping up with
-            the times is a must. I am ready for a working process that is aware
-            of this and is open to continuous learning.
-          </p>
         </div>
       </div>
     </section>

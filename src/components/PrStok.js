@@ -2,7 +2,6 @@ import React from "react";
 import stok from "../galery/stok.gif";
 
 const PrStok = () => {
-  
   return (
     <div>
       <div className="prproject">
@@ -70,16 +69,14 @@ const PrStok = () => {
           </li>
         </ul>
         <div className="ifra">
-
-        <iframe
-
-          src="https://www.youtube.com/embed/NHQqDsnW-hg"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>        </div>
-
+          <iframe
+            src="https://www.youtube.com/embed/NHQqDsnW-hg"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>{" "}
+        </div>
       </div>
     </div>
   );

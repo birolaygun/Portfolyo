@@ -33,6 +33,10 @@ import PrMenuEn from "./components/PrMenuEn";
 import Galery from "./components/Galery";
 import İletişim from "./components/İletişim";
 import İletişimEn from "./components/İletişimEn";
+import PrInstagram from "./components/PrInstagram";
+import PrInstagramEn from "./components/PrInstagramEn";
+import PrGlomil from "./components/PrGlomil";
+import PrGlomilEn from "./components/PrGlomilEn";
 import "./scss/styles.css";
 
 export default function App() {
@@ -156,6 +160,46 @@ export default function App() {
             <>
               <PrMenu />
               <Nav />
+            </>
+          )}
+        />
+        <Route
+          path="/projeler/instagram/"
+          exact
+          render={() => (
+            <>
+              <PrInstagram />
+              <Nav />
+            </>
+          )}
+        />
+        <Route
+          path="/projeler/instagram/en/"
+          exact
+          render={() => (
+            <>
+              <PrInstagramEn />
+              <NavEn />
+            </>
+          )}
+        />
+        <Route
+          path="/projeler/glomil/"
+          exact
+          render={() => (
+            <>
+              <PrGlomil />
+              <Nav />
+            </>
+          )}
+        />
+        <Route
+          path="/projeler/glomil/en/"
+          exact
+          render={() => (
+            <>
+              <PrGlomilEn />
+              <NavEn />
             </>
           )}
         />
