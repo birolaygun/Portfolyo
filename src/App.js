@@ -33,6 +33,8 @@ import PrMenuEn from "./components/PrMenuEn";
 import Galery from "./components/Galery";
 import İletişim from "./components/İletişim";
 import İletişimEn from "./components/İletişimEn";
+import Currency from "./components/Currency";
+import CurrencyEn from "./components/CurrencyEn";
 import "./scss/styles.css";
 
 export default function App() {
@@ -49,6 +51,7 @@ export default function App() {
             </>
           )}
         />
+    
         <Route
           path="/en/"
           exact
@@ -59,6 +62,27 @@ export default function App() {
             </>
           )}
         />
+        <Route
+          path="/projeler/currency/"
+          exact
+          render={() => (
+            <>
+              <Currency />
+              <Nav />
+            </>
+          )}
+        />
+        <Route
+          path="/projeler/currency/en/"
+          exact
+          render={() => (
+            <>
+              <CurrencyEn />
+              <NavEn />
+            </>
+          )}
+        />
+
         <Route
           path="/projeler/ilk_web_sitem/"
           exact

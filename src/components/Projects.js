@@ -9,11 +9,11 @@ import stok from "../galery/stok.gif";
 import todo from "../galery/todo.gif";
 import police from "../galery/police.gif";
 import menu from "../galery/menu.gif";
+import currency from "../galery/currency.gif";
 
 import { Link } from "react-router-dom";
 
 const Projects = () => {
-  
   return (
     <div className="myprojects">
       <h1>PROJELER</h1>
@@ -23,6 +23,15 @@ const Projects = () => {
         <b>Tanıtım</b> projelerimi incelemenizi öneririm.
       </p>
       <div className="allprojects">
+        <Link to="/projeler/currency/">
+          {" "}
+          <div className="portfolyo">
+            <div className="img">
+              <img src={currency} alt="" />
+            </div>{" "}
+            <h2>Döviz Kurları</h2>{" "}
+          </div>
+        </Link>
         <Link to="/projeler/portfolyo/">
           {" "}
           <div className="portfolyo">

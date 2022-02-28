@@ -1,13 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import brl from "../Brl.jpg";
-import cv from "../Birol_Aygun_CV.pdf";
 import { saveAs } from "file-saver";
 
 const CvEn = () => {
-  const saveFile = () => {
-    saveAs({ cv });
-  };
+
 
   return (
     <section className="cv">

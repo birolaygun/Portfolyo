@@ -2,7 +2,6 @@ import React from "react";
 import döviz from "../galery/döviz.gif";
 
 const PrDoviz = () => {
-  
   return (
     <div>
       <div className="prproject">
@@ -43,15 +42,14 @@ const PrDoviz = () => {
           görebilirsiniz.
         </p>
         <div className="ifra">
-
-        <iframe
-          src="https://www.youtube.com/embed/bW9eQJyI_8s"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>        </div>
-
+          <iframe
+            src="https://www.youtube.com/embed/bW9eQJyI_8s"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>{" "}
+        </div>
       </div>
     </div>
   );

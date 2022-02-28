@@ -24,7 +24,7 @@ const PrTanitimEn = () => {
           <h3>
             Github Link:{" "}
             <a href="https://github.com/birolaygun/-Personal">
-              github.com/birolaygun/-Personal
+              github.com/birolaygun/Personal
             </a>
           </h3>
         </div>

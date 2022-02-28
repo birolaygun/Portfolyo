@@ -1,5 +1,4 @@
 import React from 'react'
-import Headers from './Headers';
 import HeadersEn from './HeadersEn';
 
 const MainsEn = () => {

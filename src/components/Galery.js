@@ -26,81 +26,81 @@ const Galery = () => {
     <div className="prproject">
       <h1>Galeri</h1>
       <div className="photos">
-        <div class="grid-wrap">
+        <div className="grid-wrap">
           <ul>
-            <li class="big">
+            <li className="big">
               {" "}
               <img src={a} alt="" />{" "}
             </li>
-            <li class="vertical">
+            <li className="vertical">
               {" "}
               <img src={b} alt="" />{" "}
             </li>
-            <li class="vertical">
+            <li className="vertical">
               {" "}
               <img src={c} alt="" />{" "}
             </li>
-            <li class="vertical">
+            <li className="vertical">
               {" "}
               <img src={d} alt="" />{" "}
             </li>
-            <li class="big">
+            <li className="big">
               {" "}
               <img src={e} alt="" />{" "}
             </li>
-            <li class="vertical">
+            <li className="vertical">
               {" "}
               <img src={f} alt="" />{" "}
             </li>
-            <li class="big">
+            <li className="big">
               {" "}
               <img src={g} alt="" />{" "}
             </li>
-            <li class="vertical">
+            <li className="vertical">
               {" "}
               <img src={h} alt="" />{" "}
             </li>
-            <li class="big 9">
+            <li className="big 9">
               {" "}
               <img src={i} alt="" />{" "}
             </li>
-            <li class="horizontal">
+            <li className="horizontal">
               {" "}
               <img src={j} alt="" />{" "}
             </li>
-            <li class="small">
+            <li className="small">
               {" "}
               <img src={k} alt="" />{" "}
             </li>
-            <li class="small">
+            <li className="small">
               {" "}
               <img src={l} alt="" />{" "}
             </li>
-            <li class="vertical">
+            <li className="vertical">
               {" "}
               <img src={m} alt="" />{" "}
             </li>
-            <li class="vertical">
+            <li className="vertical">
               {" "}
               <img src={n} alt="" />{" "}
             </li>
-            <li class="vertical">
+            <li className="vertical">
               {" "}
               <img src={o} alt="" />{" "}
             </li>
-            <li class="big">
+            <li className="big">
               {" "}
               <img src={p} alt="" />{" "}
             </li>
-            <li class="vertical">
+            <li className="vertical">
               {" "}
               <img src={r} alt="" />{" "}
             </li>
-            <li class="horizontal">
+            <li className="horizontal">
               {" "}
               <img src={s} alt="" />{" "}
             </li>
-            <li class="horizontal">
+            <li className="horizontal">
               {" "}
               <img src={t} alt="" />{" "}
             </li>

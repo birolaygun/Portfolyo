@@ -9,6 +9,8 @@ import stok from "../galery/stok.gif";
 import todo from "../galery/todo.gif";
 import police from "../galery/police.gif";
 import menu from "../galery/menu.gif";
+import currency from "../galery/currency.gif";
+
 
 import { Link } from "react-router-dom";
 
@@ -22,6 +24,15 @@ const ProjectsEn = () => {
         <b>Stock-Tracking</b> and <b>Promotion</b> projects.
       </p>
       <div className="allprojects">
+        <Link to="/projeler/currency/en/">
+          {" "}
+          <div className="portfolyo">
+            <div className="img">
+              <img src={currency} alt="" />
+            </div>{" "}
+            <h2>Currency Convert</h2>{" "}
+          </div>
+        </Link>
         <Link to="/projeler/portfolyo/en/">
           {" "}
           <div className="portfolyo">
@@ -31,7 +42,6 @@ const ProjectsEn = () => {
             <h2>Portfolio</h2>{" "}
           </div>
         </Link>
-
         <Link to="/projeler/tanitim/en/">
           {" "}
           <div className="portfolyo">
