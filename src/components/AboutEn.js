@@ -22,19 +22,10 @@ const AboutEn = () => {
           {" "}
           I graduated from <b>Etimesgut Anatolian High School</b>, which I
           entered in 2002, in 2006. In 2007, I moved to the <b>METU</b>{" "}
-          Elementary Science Education. I won the <b>Police Academy</b> in 2008
-          and left METU and registered here. After graduating from here in 2012,
-          I started to work in the Turkish National Police Organization as{" "}
-          <b>Assistant Commissioner</b>.
+          Elementary Science Education then in 2008
+          I left METU. 
         </p>
-        <h2>My Business Life</h2>
-        <p>
-          {" "}
-          After working in Ankara between 2012-2013 and Mersin between
-          2013-2016, I left the Police Force. Despite my experience in different
-          professions, I could not find what I was looking for, until I met{" "}
-          <b> Web Design</b>.{" "}
-        </p>
+
         <h2>My Meeting with FrontEnd</h2>
         <p>
           {" "}

@@ -10,6 +10,8 @@ import todo from "../galery/todo.gif";
 import police from "../galery/police.gif";
 import menu from "../galery/menu.gif";
 import currency from "../galery/currency.gif";
+import insta from "../galery/insta.gif";
+import glomil from "../galery/glomil.gif";
 
 
 import { Link } from "react-router-dom";
@@ -33,6 +35,26 @@ const ProjectsEn = () => {
             <h2>Currency Convert</h2>{" "}
           </div>
         </Link>
+        <Link to="/projeler/instagram/en/">
+          {" "}
+          <div className="portfolyo">
+            <div className="img">
+              <img src={insta} alt="" />
+            </div>{" "}
+            <h2>İnstagram</h2>{" "}
+          </div>
+        </Link>
+
+        <Link to="/projeler/glomil/en/">
+          {" "}
+          <div className="portfolyo">
+            <div className="img">
+              <img src={glomil} alt="" />
+            </div>{" "}
+            <h2>Glomil</h2>{" "}
+          </div>
+        </Link>
+
         <Link to="/projeler/portfolyo/en/">
           {" "}
           <div className="portfolyo">
