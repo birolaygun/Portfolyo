@@ -3,8 +3,6 @@ import brl from "../Brl.jpg";
 import { saveAs } from "file-saver";
 
 const CvEn = () => {
-
-
   return (
     <section className="cv">
       <header>
@@ -202,20 +200,20 @@ const CvEn = () => {
             >
               <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z" />
             </svg>
-            <h2>Bilgisayar </h2>
+            <h2>Computer </h2>
           </div>
           <div className="computer">
             <div>
               <label>HTML 5</label>{" "}
               <div>
-                <input type="range" value="100" disabled></input>
+                <input type="range" value="90" disabled></input>
               </div>{" "}
             </div>
 
             <div>
               <label>CSS 3</label>{" "}
               <div>
-                <input type="range" value="100" disabled></input>
+                <input type="range" value="80" disabled></input>
               </div>{" "}
             </div>
 
@@ -229,7 +227,7 @@ const CvEn = () => {
             <div>
               <label>BootStrap</label>{" "}
               <div>
-                <input type="range" value="90" disabled></input>
+                <input type="range" value="70" disabled></input>
               </div>{" "}
             </div>
             <div>
@@ -242,51 +240,58 @@ const CvEn = () => {
             <div>
               <label>JavaScript</label>{" "}
               <div>
-                <input type="range" value="100" disabled></input>
+                <input type="range" value="80" disabled></input>
               </div>{" "}
             </div>
             <div>
               <label>TypeScript</label>{" "}
               <div>
-                <input type="range" value="80" disabled></input>
+                <input type="range" value="60" disabled></input>
               </div>{" "}
             </div>
 
             <div>
               <label>React</label>{" "}
               <div>
-                <input type="range" value="90" disabled></input>
+                <input type="range" value="80" disabled></input>
               </div>{" "}
             </div>
             <div>
               <label>Next.js</label>{" "}
               <div>
-                <input type="range" value="90" disabled></input>
+                <input type="range" value="70" disabled></input>
               </div>{" "}
             </div>
 
             <div>
               <label>Redux</label>{" "}
               <div>
-                <input type="range" value="100" disabled></input>
+                <input type="range" value="80" disabled></input>
               </div>{" "}
             </div>
             <div>
               <label>Recoil</label>{" "}
               <div>
-                <input type="range" value="100" disabled></input>
+                <input type="range" value="80" disabled></input>
               </div>{" "}
             </div>
             <div>
               <label>FireBase</label>{" "}
               <div>
-                <input type="range" value="70" disabled></input>
+                <input type="range" value="40" disabled></input>
               </div>{" "}
             </div>
             <div>
+              <label>Git</label>{" "}
+              <div>
+                <input type="range" value="60" disabled></input>
+              </div>{" "}
+            </div>
+
+            <div>
               <label>Adobe Photoshop</label>{" "}
               <div>
-                <input type="range" value="70" disabled></input>
+                <input type="range" value="60" disabled></input>
               </div>{" "}
             </div>
             <div>

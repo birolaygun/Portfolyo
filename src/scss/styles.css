@@ -35,11 +35,11 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 15%;
   height: 100vh;
   left: 70%;
@@ -63,8 +63,8 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin-top: 50px;
 }
 
@@ -106,68 +106,69 @@ body {
 .welcome div p {
   font-weight: bold;
   color: #1b1b2a;
-  text-shadow: 1px 1px 4px #b3b4bd, -1px -1px 4px #b3b4bd, -1px 1px 4px #b3b4bd, 1px -1px 4px #b3b4bd;
+  text-shadow: 1px 1px 4px #b3b4bd, -1px -1px 4px #b3b4bd, -1px 1px 4px #b3b4bd,
+    1px -1px 4px #b3b4bd;
 }
 
 .welcome1 p {
   padding-top: 30vh;
   font-size: 8rem;
   -webkit-animation-name: welcome1;
-          animation-name: welcome1;
+  animation-name: welcome1;
   -webkit-animation-duration: 25s;
-          animation-duration: 25s;
+  animation-duration: 25s;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 }
 
 .welcome2 p {
   font-size: 4rem;
   -webkit-animation-name: welcome2;
-          animation-name: welcome2;
+  animation-name: welcome2;
   -webkit-animation-duration: 25s;
-          animation-duration: 25s;
+  animation-duration: 25s;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 }
 
 .welcome3 p {
   font-size: 3rem;
   -webkit-animation-name: welcome3;
-          animation-name: welcome3;
+  animation-name: welcome3;
   -webkit-animation-duration: 25s;
-          animation-duration: 25s;
+  animation-duration: 25s;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 }
 
 .welcome4 p {
   font-size: 3rem;
   -webkit-animation-name: welcome4;
-          animation-name: welcome4;
+  animation-name: welcome4;
   -webkit-animation-duration: 25s;
-          animation-duration: 25s;
+  animation-duration: 25s;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 }
 
 .welcome5 p {
   font-size: 5rem;
   -webkit-animation-name: welcome5;
-          animation-name: welcome5;
+  animation-name: welcome5;
   -webkit-animation-duration: 25s;
-          animation-duration: 25s;
+  animation-duration: 25s;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 }
 
 .welcome6 p {
   font-size: 4rem;
   -webkit-animation-name: welcome6;
-          animation-name: welcome6;
+  animation-name: welcome6;
   -webkit-animation-duration: 25s;
-          animation-duration: 25s;
+  animation-duration: 25s;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes welcome1 {
@@ -534,7 +535,7 @@ body {
 
 .headers > div > a:hover {
   -webkit-box-shadow: 0px 0px 15px #b3b4bd;
-          box-shadow: 0px 0px 15px #b3b4bd;
+  box-shadow: 0px 0px 15px #b3b4bd;
 }
 
 .svg {
@@ -568,8 +569,8 @@ body {
 .galery a {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
   margin-left: calc(30vw - 10px) !important;
 }
 
@@ -663,8 +664,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 15px auto;
 }
 
@@ -764,8 +765,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin: 3px 0;
 }
 
@@ -791,8 +792,12 @@ input[type="range"]::-webkit-slider-thumb {
   margin: 0.2em 0;
   background: #b3b4bd;
   border-radius: 100%;
-  -webkit-box-shadow: inset 0.8em 0.8em 5px -8px rgba(255, 255, 255, 0.192), inset -0.4em -0.4em 10px -3px rgba(0, 0, 0, 0.329), 0.7em 0.5em 7px -0.5em rgba(0, 0, 0, 0.842);
-          box-shadow: inset 0.8em 0.8em 5px -8px rgba(255, 255, 255, 0.192), inset -0.4em -0.4em 10px -3px rgba(0, 0, 0, 0.329), 0.7em 0.5em 7px -0.5em rgba(0, 0, 0, 0.842);
+  -webkit-box-shadow: inset 0.8em 0.8em 5px -8px rgba(255, 255, 255, 0.192),
+    inset -0.4em -0.4em 10px -3px rgba(0, 0, 0, 0.329),
+    0.7em 0.5em 7px -0.5em rgba(0, 0, 0, 0.842);
+  box-shadow: inset 0.8em 0.8em 5px -8px rgba(255, 255, 255, 0.192),
+    inset -0.4em -0.4em 10px -3px rgba(0, 0, 0, 0.329),
+    0.7em 0.5em 7px -0.5em rgba(0, 0, 0, 0.842);
 }
 
 input[type="range"]::-webkit-slider-runnable-track {
@@ -800,8 +805,10 @@ input[type="range"]::-webkit-slider-runnable-track {
   width: 100%;
   padding: 0 1em;
   border-radius: 2em;
-  -webkit-box-shadow: inset 0.6em 1em 10px rgba(0, 0, 0, 0.15), inset -0.6em -1em 10px rgba(255, 255, 255, 0.199);
-          box-shadow: inset 0.6em 1em 10px rgba(0, 0, 0, 0.15), inset -0.6em -1em 10px rgba(255, 255, 255, 0.199);
+  -webkit-box-shadow: inset 0.6em 1em 10px rgba(0, 0, 0, 0.15),
+    inset -0.6em -1em 10px rgba(255, 255, 255, 0.199);
+  box-shadow: inset 0.6em 1em 10px rgba(0, 0, 0, 0.15),
+    inset -0.6em -1em 10px rgba(255, 255, 255, 0.199);
 }
 
 input[type="range"]::before {
@@ -872,17 +879,17 @@ input[type="range"]::before {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
   -ms-flex-line-pack: stretch;
-      align-content: stretch;
+  align-content: stretch;
 }
 
 .allprojects img {
@@ -911,7 +918,7 @@ input[type="range"]::before {
 
 .allprojects > a:hover {
   -webkit-box-shadow: 0px 0px 30px #b3b4bd;
-          box-shadow: 0px 0px 30px #b3b4bd;
+  box-shadow: 0px 0px 30px #b3b4bd;
 }
 
 .myprojects p {
@@ -1056,8 +1063,8 @@ iframe {
   display: -ms-grid;
   display: grid;
   grid-gap: 10px;
-  -ms-grid-columns: (minmax(140px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  -ms-grid-columns: (minmax(140px, 1fr)) [auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   grid-auto-rows: 120px;
   grid-auto-flow: dense;
 }
@@ -1067,11 +1074,11 @@ iframe {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   font-size: 2em;
 }
 
@@ -1079,16 +1086,16 @@ iframe {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -webkit-box-shadow: 0 2px 16px var(--shadow);
-          box-shadow: 0 2px 16px var(--shadow);
+  box-shadow: 0 2px 16px var(--shadow);
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
 
 .grid-wrap ul li img:hover {
   -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  transform: scale(1.5);
 }
 
 .horizontal {
@@ -1155,8 +1162,8 @@ iframe {
   .galery a {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
     margin-left: calc(20vw - 10px) !important;
   }
 }
@@ -1181,11 +1188,11 @@ iframe {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     z-index: 20;
     height: 50px;
     margin: auto;
@@ -1205,8 +1212,8 @@ iframe {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
   }
   .socialMd > a {
     margin: auto;
@@ -1302,8 +1309,8 @@ iframe {
   .galery a {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     margin-left: 0 !important;
   }
   iframe {

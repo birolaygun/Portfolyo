@@ -190,14 +190,14 @@ const Cv = () => {
             <div>
               <label>HTML 5</label>{" "}
               <div>
-                <input type="range" value="100" disabled></input>
+                <input type="range" value="90" disabled></input>
               </div>{" "}
             </div>
 
             <div>
               <label>CSS 3</label>{" "}
               <div>
-                <input type="range" value="100" disabled></input>
+                <input type="range" value="80" disabled></input>
               </div>{" "}
             </div>
 
@@ -211,7 +211,7 @@ const Cv = () => {
             <div>
               <label>BootStrap</label>{" "}
               <div>
-                <input type="range" value="90" disabled></input>
+                <input type="range" value="70" disabled></input>
               </div>{" "}
             </div>
             <div>
@@ -224,51 +224,58 @@ const Cv = () => {
             <div>
               <label>JavaScript</label>{" "}
               <div>
-                <input type="range" value="100" disabled></input>
+                <input type="range" value="80" disabled></input>
               </div>{" "}
             </div>
             <div>
               <label>TypeScript</label>{" "}
               <div>
-                <input type="range" value="80" disabled></input>
+                <input type="range" value="60" disabled></input>
               </div>{" "}
             </div>
 
             <div>
               <label>React</label>{" "}
               <div>
-                <input type="range" value="90" disabled></input>
+                <input type="range" value="80" disabled></input>
               </div>{" "}
             </div>
             <div>
               <label>Next.js</label>{" "}
               <div>
-                <input type="range" value="90" disabled></input>
+                <input type="range" value="70" disabled></input>
               </div>{" "}
             </div>
 
             <div>
               <label>Redux</label>{" "}
               <div>
-                <input type="range" value="100" disabled></input>
+                <input type="range" value="80" disabled></input>
               </div>{" "}
             </div>
             <div>
               <label>Recoil</label>{" "}
               <div>
-                <input type="range" value="100" disabled></input>
+                <input type="range" value="80" disabled></input>
               </div>{" "}
             </div>
             <div>
               <label>FireBase</label>{" "}
               <div>
-                <input type="range" value="70" disabled></input>
+                <input type="range" value="40" disabled></input>
               </div>{" "}
             </div>
             <div>
+              <label>Git</label>{" "}
+              <div>
+                <input type="range" value="60" disabled></input>
+              </div>{" "}
+            </div>
+
+            <div>
               <label>Adobe Photoshop</label>{" "}
               <div>
-                <input type="range" value="70" disabled></input>
+                <input type="range" value="60" disabled></input>
               </div>{" "}
             </div>
             <div>
@@ -279,7 +286,6 @@ const Cv = () => {
             </div>
           </div>
         </div>
-
       </div>
     </section>
   );
