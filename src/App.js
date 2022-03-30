@@ -39,6 +39,9 @@ import PrInstagram from "./components/PrInstagram";
 import PrInstagramEn from "./components/PrInstagramEn";
 import PrGlomil from "./components/PrGlomil";
 import PrGlomilEn from "./components/PrGlomilEn";
+import PrWhatsAppEn from "./components/PrWhatsAppEn";
+import PrWhatsApp from "./components/PrWhatsApp";
+
 import "./scss/styles.css";
 
 export default function App() {
@@ -55,7 +58,7 @@ export default function App() {
             </>
           )}
         />
-    
+
         <Route
           path="/en/"
           exact
@@ -66,6 +69,28 @@ export default function App() {
             </>
           )}
         />
+
+        <Route
+          path="/projeler/whatsapp/"
+          exact
+          render={() => (
+            <>
+              <PrWhatsApp />
+              <Nav />
+            </>
+          )}
+        />
+        <Route
+          path="/projeler/whatsapp/en/"
+          exact
+          render={() => (
+            <>
+              <PrWhatsAppEn />
+              <NavEn />
+            </>
+          )}
+        />
+
         <Route
           path="/projeler/currency/"
           exact

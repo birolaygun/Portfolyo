@@ -12,6 +12,7 @@ import menu from "../galery/menu.gif";
 import currency from "../galery/currency.gif";
 import insta from "../galery/insta.gif";
 import glomil from "../galery/glomil.gif";
+import ws from "../galery/wsEkran.gif";
 
 import { Link } from "react-router-dom";
 
@@ -25,6 +26,15 @@ const Projects = () => {
         <b>Tanıtım</b> projelerimi incelemenizi öneririm.
       </p>
       <div className="allprojects">
+        <Link to="/projeler/whatsapp/">
+          {" "}
+          <div className="portfolyo">
+            <div className="img">
+              <img src={ws} alt="" />
+            </div>{" "}
+            <h2>WhatsApp</h2>{" "}
+          </div>
+        </Link>
         <Link to="/projeler/currency/">
           {" "}
           <div className="portfolyo">

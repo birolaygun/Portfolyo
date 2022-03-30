@@ -35,7 +35,7 @@ const PrStokEn = () => {
           <li>user name: personel4, password: asdfasdf</li>
         </ul>
         <p>
-          This is my most successful project I've ever done. I developed this
+          I developed this
           project using React and Redux. The purpose of my project is to provide
           Stock control in Warehouses. I write below what can be done in this
           project.

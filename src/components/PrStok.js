@@ -35,9 +35,9 @@ const PrStok = () => {
           <li>kullanıcı Adı: personel4, şifre: asdfasdf</li>
         </ul>
         <p>
-          Benim yaptığım en başarılı projem budur. Bu projeyi React ve Redux
-          kullanarak geliştirdim. Projemin amacı Depolarda Stok kontrolünü
-          sağlamaktır. Bu projede neler yapılabildiğini aşağıya yazıyorum.
+          Bu projeyi React ve Redux kullanarak geliştirdim. Projemin amacı
+          Depolarda Stok kontrolünü sağlamaktır. Bu projede neler
+          yapılabildiğini aşağıya yazıyorum.
         </p>
         <ul>
           <li>
@@ -69,26 +69,16 @@ const PrStok = () => {
           </li>
         </ul>
         <div className="ifra">
-
-        <iframe
-
-          src="https://www.youtube.com/embed/NHQqDsnW-hg"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>        </div>
-
           <iframe
             src="https://www.youtube.com/embed/NHQqDsnW-hg"
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           ></iframe>{" "}
         </div>
       </div>
-  
+    </div>
   );
 };
 
