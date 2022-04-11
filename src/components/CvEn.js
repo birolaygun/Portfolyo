@@ -1,6 +1,6 @@
 import React from "react";
 import brl from "../Brl.jpg";
-import { saveAs } from "file-saver";
+import cv from "../Birol_Aygun_CV_En.pdf";
 
 const CvEn = () => {
   return (
@@ -10,20 +10,11 @@ const CvEn = () => {
         <h1>CV</h1>{" "}
       </header>
 
-      <a
-        onClick={() => {
-          if (
-            window.confirm(
-              "CV's language is Turkish. Do you want to download it ?"
-            )
-          ) {
-            saveAs(
-              "https://birolaygun.netlify.app/static/media/Birol_Aygun_CV.da555c28.pdf"
-            );
-          }
-        }}
-      >
-        <button className="cvdwn btn"> Download CV</button>
+      <a href={cv} download>
+        <button className="cvdwn btn">
+          {" "}
+          Download CV <span className="langg">EN</span>{" "}
+        </button>
       </a>
 
       <div className="img">

@@ -11,7 +11,7 @@ const Cv = () => {
       </header>
 
       <a href={cv} download>
-        <button className="cvdwn btn"> CV'yi İndir</button>
+        <button className="cvdwn btn"> CV'yi İndir <span className="langg">TR</span> </button>
       </a>
 
       <div className="img">
@@ -38,10 +38,6 @@ const Cv = () => {
             <div>
               <label>Eğitim Durumu:</label>
               <p>Ön Lisans</p>
-            </div>
-            <div>
-              <label>Askerlik:</label>
-              <p>Muaf</p>
             </div>
             <div>
               <label>Çalışma Durumu:</label>
